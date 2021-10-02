@@ -5,254 +5,253 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script async src="./index.js"></script>
     <style>
-      @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+      @import url("https://fonts.googleapis.com/css?family=Anton&display=swap");
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #ff5100;
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #ff5100;
+      }
 
-}
+      .debug {
+        background-color: hotpink !important;
+      }
+      .debug h1 {
+        border: 1px solid black;
+        overflow: visible;
+      }
+      .debug h2 {
+        color: red;
+        z-index: 2;
+      }
 
-.debug {
-  background-color: hotpink !important;
-}
-.debug h1 {
-  border: 1px solid black;
-  overflow: visible;
-}
-.debug h2 {
-  color: red;
-  z-index: 2;
-}
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 100vw;
+        min-height: 100vh;
+      }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 100vw;
-  min-height: 100vh;
-}
+      h1,
+      h2 {
+        text-transform: uppercase;
+        font-family: "Anton", sans-serif;
+        text-align: center;
 
-h1,
-h2 {
-  text-transform: uppercase;
-  font-family: "Anton", sans-serif;
-  text-align: center;
+        position: relative;
+      }
 
-  position: relative;
+      h1 {
+        font-size: 20vw;
 
-}
+        margin: 0;
+        line-height: 2.1;
+        height: 20vw;
+      }
 
-h1 {
-  font-size: 20vw;
+      h2 {
+        font-size: 10vw;
 
-  margin: 0;
-  line-height: 2.1;
-  height: 20vw;
-}
+        padding-left: 2.8vw;
+      }
 
-h2 {
-  font-size: 10vw;
+      .char-wrapper {
+        position: relative;
+        display: inline-block;
+      }
 
-  padding-left: 2.8vw;
-}
+      .char {
+        display: inline-block;
+        position: relative;
+        height: 20vw;
+      }
 
-.char-wrapper {
-  position: relative;
-  display: inline-block;
-}
+      .char--clone {
+        position: absolute;
+        top: 60vw;
+        left: 0;
+      }
 
-.char {
-  display: inline-block;
-  position: relative;
-  height: 20vw;
-}
+      .char:before,
+      .char:after {
+        content: attr(data-char);
+        position: absolute;
+        left: 0;
+        height: 20vw;
+      }
 
-.char--clone {
-  position: absolute;
-  top: 60vw;
-  left: 0;
-}
+      .char:before {
+        top: -100%;
+      }
 
-.char:before,
-.char:after {
-  content: attr(data-char);
-  position: absolute;
-  left: 0;
-  height: 20vw;
-}
+      .char:after {
+        bottom: -100%;
+      }
 
-.char:before {
-  top: -100%;
-}
-
-.char:after {
-  bottom: -100%;
-}
-
-.dg.a.main {
-  margin-right: 0;
-}
-      * { padding: 0; margin: 0; }
-    body {
+      .dg.a.main {
+        margin-right: 0;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
         font-family: sans-serif;
         text-rendering: optimizespeed;
         background-color: #ffffff;
-    }
-    a {
+      }
+      a {
         color: #006ed3;
         text-decoration: none;
-    }
-    a:hover,
-    h1 a:hover {
+      }
+      a:hover,
+      h1 a:hover {
         color: #319cff;
-    }
-    header,
-    #summary {
+      }
+      header,
+      #summary {
         padding-left: 5%;
         padding-right: 5%;
-    }
-    th:first-child,
-    td:first-child {
+      }
+      th:first-child,
+      td:first-child {
         width: 5%;
-    }
-    th:last-child,
-    td:last-child {
+      }
+      th:last-child,
+      td:last-child {
         width: 5%;
-    }
-    header {
-
+      }
+      header {
         padding-bottom: 15px;
         background-color: #f2f2f2;
-    }
-    h1 {
+      }
+      h1 {
         font-size: 20px;
         font-weight: normal;
         white-space: nowrap;
-       
 
         color: #999;
-    }
-    h1 a {
+      }
+      h1 a {
         color: #000;
         margin: 0 4px;
-    }
-    h1 a:hover {
+      }
+      h1 a:hover {
         text-decoration: underline;
-    }
-    h1 a:first-child {
+      }
+      h1 a:first-child {
         margin: 0;
-    }
-    main {
+      }
+      main {
         display: block;
-    }
-    .meta {
+      }
+      .meta {
         font-size: 12px;
         font-family: Verdana, sans-serif;
-        border-bottom: 1px solid #9C9C9C;
+        border-bottom: 1px solid #9c9c9c;
         padding-top: 10px;
         padding-bottom: 10px;
-    }
-    .meta-item {
+      }
+      .meta-item {
         margin-right: 1em;
-    }
-    #filter {
+      }
+      #filter {
         padding: 4px;
-        border: 1px solid #CCC;
-    }
-    table {
+        border: 1px solid #ccc;
+      }
+      table {
         width: 100%;
         border-collapse: collapse;
-    }
-    tr {
+      }
+      tr {
         border-bottom: 1px dashed #dadada;
-    }
-    tbody tr:hover {
+      }
+      tbody tr:hover {
         background-color: #ffffec;
-    }
-    th,
-    td {
+      }
+      th,
+      td {
         text-align: left;
         padding: 10px 0;
-    }
-    th {
+      }
+      th {
         padding-top: 15px;
         padding-bottom: 15px;
         font-size: 16px;
         white-space: nowrap;
-    }
-    th a {
+      }
+      th a {
         color: black;
-    }
-    th svg {
+      }
+      th svg {
         vertical-align: middle;
-    }
-    td {
+      }
+      td {
         white-space: nowrap;
         font-size: 14px;
-    }
-    td:nth-child(2) {
+      }
+      td:nth-child(2) {
         width: 80%;
-    }
-    td:nth-child(3) {
+      }
+      td:nth-child(3) {
         padding: 0 20px 0 20px;
-    }
-    th:nth-child(4),
-    td:nth-child(4) {
+      }
+      th:nth-child(4),
+      td:nth-child(4) {
         text-align: right;
-    }
-    td:nth-child(2) svg {
+      }
+      td:nth-child(2) svg {
         position: absolute;
-    }
-    td .name {
+      }
+      td .name {
         margin-left: 1.75em;
         word-break: break-all;
         overflow-wrap: break-word;
         white-space: pre-wrap;
-    }
-    td .goup {
+      }
+      td .goup {
         margin-left: 1.75em;
         padding: 0;
         word-break: break-all;
         overflow-wrap: break-word;
         white-space: pre-wrap;
-    }
-    .icon {
+      }
+      .icon {
         margin-right: 5px;
-    }
-    tr.clickable { 
-        cursor: pointer; 
-    } 
-    tr.clickable a { 
-        display: block; 
-    } 
-    @media (max-width: 600px) {
+      }
+      tr.clickable {
+        cursor: pointer;
+      }
+      tr.clickable a {
+        display: block;
+      }
+      @media (max-width: 600px) {
         * {
-            font-size: 1.06rem;
+          font-size: 1.06rem;
         }
         .hideable {
-            display: none;
+          display: none;
         }
         td:nth-child(2) {
-            width: auto;
+          width: auto;
         }
         th:nth-child(3),
         td:nth-child(3) {
-            padding-right: 5%;
-            text-align: right;
+          padding-right: 5%;
+          text-align: right;
         }
         h1 {
-            color: #000;
+          color: #000;
         }
         h1 a {
-            margin: 0;
+          margin: 0;
         }
         #filter {
-            max-width: 100px;
+          max-width: 100px;
         }
-    }
+      }
       /**
  * prism.js Github theme based on GitHub's theme.
  * @author Sam Clarke
@@ -491,7 +490,6 @@ h2 {
         box-shadow: 0 1px white;
       }
       html body {
-
         margin: auto;
         display: block;
         background-color: #e3eaea;
@@ -605,11 +603,10 @@ h2 {
       html body ol ul {
         margin-top: 0;
         margin-bottom: 0;
-
       }
-      ul{
-                list-style:none;
-                text-align:left!important;
+      ul {
+        list-style: none;
+        text-align: left !important;
       }
       html body li {
         margin-bottom: 0;
@@ -648,7 +645,7 @@ h2 {
         background-color: #d6d6d6;
         border: 0 none;
       }
-    
+
       html body code {
         font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
         font-size: 0.85em !important;
@@ -770,58 +767,58 @@ h2 {
       .markdown-preview .newpage {
         page-break-before: always;
       }
-      
-.debug {
-  background-color: hotpink !important;
-}
-.debug h1 {
-  border: 1px solid black;
-  overflow: visible;
-}
-.debug h2 {
-  color: red;
-  z-index: 2;
-}
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 100vw;
-  min-height: 100vh;
-}
+      .debug {
+        background-color: hotpink !important;
+      }
+      .debug h1 {
+        border: 1px solid black;
+        overflow: visible;
+      }
+      .debug h2 {
+        color: red;
+        z-index: 2;
+      }
 
-.char {
-  display: inline-block;
-  position: relative;
-  height: 20vw;
-}
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 100vw;
+        min-height: 100vh;
+      }
 
-.char--clone {
-  position: absolute;
-  top: 60vw;
-  left: 0;
-}
+      .char {
+        display: inline-block;
+        position: relative;
+        height: 20vw;
+      }
 
-.char:before,
-.char:after {
-  content: attr(data-char);
-  position: absolute;
-  left: 0;
-  height: 20vw;
-}
+      .char--clone {
+        position: absolute;
+        top: 60vw;
+        left: 0;
+      }
 
-.char:before {
-  top: -100%;
-}
+      .char:before,
+      .char:after {
+        content: attr(data-char);
+        position: absolute;
+        left: 0;
+        height: 20vw;
+      }
 
-.char:after {
-  bottom: -100%;
-}
+      .char:before {
+        top: -100%;
+      }
 
-.dg.a.main {
-  margin-right: 0;
-}
+      .char:after {
+        bottom: -100%;
+      }
+
+      .dg.a.main {
+        margin-right: 0;
+      }
 
       .markdown-preview pre.line-numbers {
         position: relative;
@@ -887,7 +884,11 @@ h2 {
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/bgoonz/GIT-CDN-FILES/mdn-article.css"
     />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bgoonz/GIT-CDN-FILES/medium-basic-export.css"></head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/bgoonz/GIT-CDN-FILES/medium-basic-export.css"
+    />
+  </head>
   <body>
     <svg
       version="1.1"
@@ -1001,15 +1002,13 @@ h2 {
       </defs>
     </svg>
 
-
-           <div class="container">
-  <hgroup>
-    <center>
-    <h1 class="featured-text">Beginner Javascript Tutorial</h1>
-    </center>
-  </hgroup>
-</div>
-
+    <div class="container">
+      <hgroup>
+        <center>
+          <h1 class="featured-text">Beginner Javascript Tutorial</h1>
+        </center>
+      </hgroup>
+    </div>
 
     <main>
       <div class="listing">
@@ -1383,26 +1382,25 @@ h2 {
         </table>
       </div>
     </main>
-            <br>
-    <br>
-    <br>
-    <br>
-            <br>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <center>
       <div class="mume markdown-preview">
         <div class="container">
-  <hgroup>
-        <h1 class="mume-header" id="resources">Resources:</h1>
-    <h2>Community</h2>
-  </hgroup>
-</div>
+          <hgroup>
+            <h1 class="mume-header" id="resources">Resources:</h1>
+            <h2>Community</h2>
+          </hgroup>
+        </div>
         <hr />
         <h2 class="mume-header" id="1-call-stack">1. Call Stack</h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="reference">Reference</h3>
+        <h3 class="mume-header" id="reference">Reference</h3>
 
         <ul>
           <li>
@@ -1413,10 +1411,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="articles">Articles</h3>
+        <hr />
+
+        <h3 class="mume-header" id="articles">Articles</h3>
 
         <ul>
           <li>
@@ -1484,10 +1482,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos">Videos</h3>
 
         <ul>
           <li>
@@ -1561,10 +1559,9 @@ h2 {
         <hr />
         <h2 class="mume-header" id="2-primitive-types">2. Primitive Types</h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="reference-1">Reference</h3>
+        <h3 class="mume-header" id="reference-1">Reference</h3>
 
         <ul>
           <li>
@@ -1575,10 +1572,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="articles-1">Articles</h3>
+        <hr />
+
+        <h3 class="mume-header" id="articles-1">Articles</h3>
 
         <ul>
           <li>
@@ -1647,10 +1644,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-1">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-1">Videos</h3>
 
         <ul>
           <li>
@@ -1704,10 +1701,9 @@ h2 {
           3. Value Types and Reference Types
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-2">Articles</h3>
+        <h3 class="mume-header" id="articles-2">Articles</h3>
 
         <ul>
           <li>
@@ -1781,10 +1777,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-2">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-2">Videos</h3>
 
         <ul>
           <li>
@@ -1817,10 +1813,9 @@ h2 {
           4. Implicit, Explicit, Nominal, Structuring and Duck Typing
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-3">Articles</h3>
+        <h3 class="mume-header" id="articles-3">Articles</h3>
 
         <ul>
           <li>
@@ -1853,10 +1848,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-3">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-3">Videos</h3>
 
         <ul>
           <li>
@@ -1890,10 +1885,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="books">Books</h3>
+        <hr />
+
+        <h3 class="mume-header" id="books">Books</h3>
 
         <ul>
           <li>
@@ -1906,10 +1901,9 @@ h2 {
         <hr />
         <h2 class="mume-header" id="5-vs-vs-typeof">5. == vs === vs typeof</h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-4">Articles</h3>
+        <h3 class="mume-header" id="articles-4">Articles</h3>
 
         <ul>
           <li>
@@ -1982,10 +1976,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-4">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-4">Videos</h3>
 
         <ul>
           <li>
@@ -2009,10 +2003,9 @@ h2 {
           6. Function Scope, Block Scope and Lexical Scope
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="books-1">Books</h3>
+        <h3 class="mume-header" id="books-1">Books</h3>
 
         <ul>
           <li>
@@ -2023,10 +2016,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="articles-5">Articles</h3>
+        <hr />
+
+        <h3 class="mume-header" id="articles-5">Articles</h3>
 
         <ul>
           <li>
@@ -2119,10 +2112,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-5">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-5">Videos</h3>
 
         <ul>
           <li>
@@ -2156,10 +2149,9 @@ h2 {
           7. Expression vs Statement
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-6">Articles</h3>
+        <h3 class="mume-header" id="articles-6">Articles</h3>
 
         <ul>
           <li>
@@ -2203,10 +2195,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-6">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-6">Videos</h3>
 
         <ul>
           <li>
@@ -2227,10 +2219,9 @@ h2 {
           8. IIFE, Modules and Namespaces
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-7">Articles</h3>
+        <h3 class="mume-header" id="articles-7">Articles</h3>
 
         <ul>
           <li>
@@ -2320,10 +2311,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-7">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-7">Videos</h3>
 
         <ul>
           <li>
@@ -2370,10 +2361,9 @@ h2 {
           9. Message Queue and Event Loop
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-8">Articles</h3>
+        <h3 class="mume-header" id="articles-8">Articles</h3>
 
         <ul>
           <li>
@@ -2449,10 +2439,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-8">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-8">Videos</h3>
 
         <ul>
           <li>
@@ -2495,10 +2485,9 @@ h2 {
           10. setTimeout, setInterval and requestAnimationFrame
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-9">Articles</h3>
+        <h3 class="mume-header" id="articles-9">Articles</h3>
 
         <ul>
           <li>
@@ -2543,10 +2532,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-9">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-9">Videos</h3>
 
         <ul>
           <li>
@@ -2581,10 +2570,9 @@ h2 {
           11. JavaScript Engines
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-10">Articles</h3>
+        <h3 class="mume-header" id="articles-10">Articles</h3>
 
         <ul>
           <li>
@@ -2644,10 +2632,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-10">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-10">Videos</h3>
 
         <ul>
           <li>
@@ -2666,10 +2654,9 @@ h2 {
           12. Bitwise Operators, Type Arrays and Array Buffers
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-11">Articles</h3>
+        <h3 class="mume-header" id="articles-11">Articles</h3>
 
         <ul>
           <li>
@@ -2718,10 +2705,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-11">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-11">Videos</h3>
 
         <ul>
           <li>
@@ -2736,10 +2723,9 @@ h2 {
           13. DOM and Layout Trees
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="books-2">Books</h3>
+        <h3 class="mume-header" id="books-2">Books</h3>
 
         <ul>
           <li>
@@ -2750,10 +2736,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="articles-12">Articles</h3>
+        <hr />
+
+        <h3 class="mume-header" id="articles-12">Articles</h3>
 
         <ul>
           <li>
@@ -2823,10 +2809,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-12">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-12">Videos</h3>
 
         <ul>
           <li>
@@ -2847,10 +2833,9 @@ h2 {
           14. Factories and Classes
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-13">Articles</h3>
+        <h3 class="mume-header" id="articles-13">Articles</h3>
 
         <ul>
           <li>
@@ -2933,10 +2918,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-13">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-13">Videos</h3>
 
         <ul>
           <li>
@@ -2963,10 +2948,9 @@ h2 {
           15. this, call, apply and bind
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="reference-2">Reference</h3>
+        <h3 class="mume-header" id="reference-2">Reference</h3>
 
         <ul>
           <li>
@@ -2991,10 +2975,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="articles-14">Articles</h3>
+        <hr />
+
+        <h3 class="mume-header" id="articles-14">Articles</h3>
 
         <ul>
           <li>
@@ -3187,10 +3171,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-14">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-14">Videos</h3>
 
         <ul>
           <li>
@@ -3241,10 +3225,9 @@ h2 {
           16. new, Constructor, instanceof and Instances
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-15">Articles</h3>
+        <h3 class="mume-header" id="articles-15">Articles</h3>
 
         <ul>
           <li>
@@ -3315,10 +3298,9 @@ h2 {
           17. Prototype Inheritance and Prototype Chain
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="reference-3">Reference</h3>
+        <h3 class="mume-header" id="reference-3">Reference</h3>
 
         <ul>
           <li>
@@ -3329,10 +3311,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="articles-16">Articles</h3>
+        <hr />
+
+        <h3 class="mume-header" id="articles-16">Articles</h3>
 
         <ul>
           <li>
@@ -3490,10 +3472,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-15">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-15">Videos</h3>
 
         <ul>
           <li>
@@ -3569,10 +3551,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="books-3">Books</h3>
+        <hr />
+
+        <h3 class="mume-header" id="books-3">Books</h3>
 
         <ul>
           <li>
@@ -3587,10 +3569,9 @@ h2 {
           18. Object.create and Object.assign
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="reference-4">Reference</h3>
+        <h3 class="mume-header" id="reference-4">Reference</h3>
 
         <ul>
           <li>
@@ -3608,10 +3589,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="articles-17">Articles</h3>
+        <hr />
+
+        <h3 class="mume-header" id="articles-17">Articles</h3>
 
         <ul>
           <li>
@@ -3691,10 +3672,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-16">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-16">Videos</h3>
 
         <ul>
           <li>
@@ -3715,10 +3696,9 @@ h2 {
           19. map, reduce, filter
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-18">Articles</h3>
+        <h3 class="mume-header" id="articles-18">Articles</h3>
 
         <ul>
           <li>
@@ -3968,10 +3948,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-17">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-17">Videos</h3>
 
         <ul>
           <li>
@@ -4069,10 +4049,9 @@ h2 {
           20. Pure Functions, Side Effects, State Mutation and Event Propagation
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-19">Articles</h3>
+        <h3 class="mume-header" id="articles-19">Articles</h3>
 
         <ul>
           <li>
@@ -4205,10 +4184,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-18">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-18">Videos</h3>
 
         <ul>
           <li>
@@ -4255,10 +4234,9 @@ h2 {
         <hr />
         <h2 class="mume-header" id="21-closures">21. Closures</h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="reference-5">Reference</h3>
+        <h3 class="mume-header" id="reference-5">Reference</h3>
 
         <ul>
           <li>
@@ -4275,10 +4253,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="articles-20">Articles</h3>
+        <hr />
+
+        <h3 class="mume-header" id="articles-20">Articles</h3>
 
         <ul>
           <li>
@@ -4462,10 +4440,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-19">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-19">Videos</h3>
 
         <ul>
           <li>
@@ -4518,10 +4496,9 @@ h2 {
           22. High Order Functions
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="books-4">Books</h3>
+        <h3 class="mume-header" id="books-4">Books</h3>
 
         <ul>
           <li>
@@ -4532,10 +4509,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="articles-21">Articles</h3>
+        <hr />
+
+        <h3 class="mume-header" id="articles-21">Articles</h3>
 
         <ul>
           <li>
@@ -4605,10 +4582,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-20">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-20">Videos</h3>
 
         <ul>
           <li>
@@ -4667,10 +4644,9 @@ h2 {
         <hr />
         <h2 class="mume-header" id="23-recursion">23. Recursion</h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-22">Articles</h3>
+        <h3 class="mume-header" id="articles-22">Articles</h3>
 
         <ul>
           <li>
@@ -4752,10 +4728,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-21">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-21">Videos</h3>
 
         <ul>
           <li>
@@ -4815,10 +4791,9 @@ h2 {
           24. Collections and Generators
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="reference-6">Reference</h3>
+        <h3 class="mume-header" id="reference-6">Reference</h3>
 
         <ul>
           <li>
@@ -4829,10 +4804,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="articles-23">Articles</h3>
+        <hr />
+
+        <h3 class="mume-header" id="articles-23">Articles</h3>
 
         <ul>
           <li>
@@ -4965,10 +4940,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-22">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-22">Videos</h3>
 
         <ul>
           <li>
@@ -4996,10 +4971,9 @@ h2 {
         <hr />
         <h2 class="mume-header" id="25-promises">25. Promises</h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="reference-7">Reference</h3>
+        <h3 class="mume-header" id="reference-7">Reference</h3>
 
         <ul>
           <li>
@@ -5010,10 +4984,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="articles-24">Articles</h3>
+        <hr />
+
+        <h3 class="mume-header" id="articles-24">Articles</h3>
 
         <ul>
           <li>
@@ -5201,10 +5175,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-23">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-23">Videos</h3>
 
         <ul>
           <li>
@@ -5243,10 +5217,9 @@ h2 {
         <hr />
         <h2 class="mume-header" id="26-asyncawait">26. async/await</h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="reference-8">Reference</h3>
+        <h3 class="mume-header" id="reference-8">Reference</h3>
 
         <ul>
           <li>
@@ -5256,10 +5229,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="books-5">Books</h3>
+        <hr />
+
+        <h3 class="mume-header" id="books-5">Books</h3>
 
         <ul>
           <li>
@@ -5276,10 +5249,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="articles-25">Articles</h3>
+        <hr />
+
+        <h3 class="mume-header" id="articles-25">Articles</h3>
 
         <ul>
           <li>
@@ -5432,10 +5405,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-24">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-24">Videos</h3>
 
         <ul>
           <li>
@@ -5485,10 +5458,9 @@ h2 {
         <hr />
         <h2 class="mume-header" id="27-data-structures">27. Data Structures</h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-26">Articles</h3>
+        <h3 class="mume-header" id="articles-26">Articles</h3>
 
         <ul>
           <li>
@@ -5593,10 +5565,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-25">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-25">Videos</h3>
 
         <ul>
           <li>
@@ -5628,10 +5600,9 @@ h2 {
           28. Expensive Operation and Big O Notation
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-27">Articles</h3>
+        <h3 class="mume-header" id="articles-27">Articles</h3>
 
         <ul>
           <li>
@@ -5687,10 +5658,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-26">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-26">Videos</h3>
 
         <ul>
           <li>
@@ -5716,10 +5687,9 @@ h2 {
         <hr />
         <h2 class="mume-header" id="29-algorithms">29. Algorithms</h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-28">Articles</h3>
+        <h3 class="mume-header" id="articles-28">Articles</h3>
 
         <ul>
           <li>
@@ -5791,10 +5761,9 @@ h2 {
           30. Inheritance, Polymorphism and Code Reuse
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="reference-9">Reference</h3>
+        <h3 class="mume-header" id="reference-9">Reference</h3>
 
         <ul>
           <li>
@@ -5811,10 +5780,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="articles-29">Articles</h3>
+        <hr />
+
+        <h3 class="mume-header" id="articles-29">Articles</h3>
 
         <ul>
           <li>
@@ -5862,10 +5831,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-27">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-27">Videos</h3>
 
         <ul>
           <li>
@@ -5890,10 +5859,9 @@ h2 {
         <hr />
         <h2 class="mume-header" id="31-design-patterns">31. Design Patterns</h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="books-6">Books</h3>
+        <h3 class="mume-header" id="books-6">Books</h3>
 
         <ul>
           <li>
@@ -5904,10 +5872,10 @@ h2 {
             </a>
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="articles-30">Articles</h3>
+        <hr />
+
+        <h3 class="mume-header" id="articles-30">Articles</h3>
 
         <ul>
           <li>
@@ -6044,10 +6012,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-28">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-28">Videos</h3>
 
         <ul>
           <li>
@@ -6072,10 +6040,9 @@ h2 {
           32. Partial Applications, Currying, Compose and Pipe
         </h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="books-7">Books</h3>
+        <h3 class="mume-header" id="books-7">Books</h3>
 
         <ul>
           <li>
@@ -6087,10 +6054,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="articles-31">Articles</h3>
+        <hr />
+
+        <h3 class="mume-header" id="articles-31">Articles</h3>
 
         <ul>
           <li>
@@ -6300,10 +6267,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-29">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-29">Videos</h3>
 
         <ul>
           <li>
@@ -6357,10 +6324,9 @@ h2 {
         <hr />
         <h2 class="mume-header" id="33-clean-code">33. Clean Code</h2>
 
-       
-<hr>
+        <hr />
 
- <h3 class="mume-header" id="articles-32">Articles</h3>
+        <h3 class="mume-header" id="articles-32">Articles</h3>
 
         <ul>
           <li>
@@ -6435,10 +6401,10 @@ h2 {
             >
           </li>
         </ul>
-       
-<hr>
 
- <h3 class="mume-header" id="videos-30">Videos</h3>
+        <hr />
+
+        <h3 class="mume-header" id="videos-30">Videos</h3>
 
         <ul>
           <li>
@@ -6456,6 +6422,6 @@ h2 {
         </ul>
       </div>
     </center>
-        <script async src="./index.js"></script>
+    <script async src="./index.js"></script>
   </body>
 </html>
