@@ -15,10 +15,10 @@ var getSum2 = function getTotal(num1, num2) {
   return total;
 };
 
-alert(getSum2(10,20));
+alert(getSum2(10, 20));
 
 // ------------------------------
 
 // assign function to another variable
 var sum1 = getSum2;
-alert(sum1(5,10));
+alert(sum1(5, 10));

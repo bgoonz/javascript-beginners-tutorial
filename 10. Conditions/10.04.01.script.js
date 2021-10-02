@@ -14,38 +14,38 @@
     // Code to be executed if variable/expression is different from all values
 } */
 
-let grade = 'B'; // A.B,C, or something
+let grade = "B"; // A.B,C, or something
 
 switch (grade) {
-  case 'A':
-    console.log('Great Job! - A Grade');
+  case "A":
+    console.log("Great Job! - A Grade");
     break;
-  case 'B':
-    console.log('Good! - B Grade');
+  case "B":
+    console.log("Good! - B Grade");
     break;
-  case 'C':
-    console.log('Congratulations! - Passed');
+  case "C":
+    console.log("Congratulations! - Passed");
     break;
   default:
-    console.log('Sorry! - Failed...Keep trying!');
+    console.log("Sorry! - Failed...Keep trying!");
     break;
 }
 
 // ------------------------------
 
-let sweets = ''; //cake, chocolates, biscuits
+let sweets = ""; //cake, chocolates, biscuits
 
 switch (sweets) {
-  case 'chocolates':
-    console.log('Chubby Chocolates!');
+  case "chocolates":
+    console.log("Chubby Chocolates!");
     break;
-  case 'cake':
-    console.log('Happy BirthDay Cake!');
+  case "cake":
+    console.log("Happy BirthDay Cake!");
     break;
-  case 'biscuits':
-    console.log('Enjoy Biscuits!');
+  case "biscuits":
+    console.log("Enjoy Biscuits!");
     break;
   default:
-    console.log('No Sweets! Try some other sweets!');
+    console.log("No Sweets! Try some other sweets!");
     break;
 }

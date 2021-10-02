@@ -10,8 +10,8 @@
 let i = 1;
 
 while (i <= 5) {
-  alert('Hello, The current index/num is: ' + i);
-  document.write('<li>Hello, The current index/num is: ' + i + '</li>');
-  console.log('Hello, The current index/num is: ' + i);
+  alert("Hello, The current index/num is: " + i);
+  document.write("<li>Hello, The current index/num is: " + i + "</li>");
+  console.log("Hello, The current index/num is: " + i);
   i++;
 }

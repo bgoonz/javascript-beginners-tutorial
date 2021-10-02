@@ -3,11 +3,11 @@
 
 //1. define / declare / create function
 
-function showMessage () {
-  //Body of function 
+function showMessage() {
+  //Body of function
   //code to be executed
-  console.log('welcome to JavaScript function');
-  alert('welcome to JavaScript function');    
+  console.log("welcome to JavaScript function");
+  alert("welcome to JavaScript function");
 }
 
 //2. invoke / call the function

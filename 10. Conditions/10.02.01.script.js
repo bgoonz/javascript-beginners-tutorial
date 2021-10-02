@@ -10,14 +10,14 @@ else{
 // content to be executed if condition is false - statements_2
 }*/
 
-let user = 'Ambar';
+let user = "Ambar";
 
-if (user == 'Dinanath') {
-  console.log('Welcome Dinanath!');
-  window.alert('Welcome Dinanath!');
+if (user == "Dinanath") {
+  console.log("Welcome Dinanath!");
+  window.alert("Welcome Dinanath!");
 } else {
-  console.log('Welcome Guest!');
-  window.alert('Welcome Guest!');
+  console.log("Welcome Guest!");
+  window.alert("Welcome Guest!");
 }
 
 // ------------------------------
@@ -25,9 +25,9 @@ if (user == 'Dinanath') {
 let age = 15;
 
 if (age >= 18) {
-  console.log('MAJOR! Eligible for Voting');
-  window.alert('MAJOR! Eligible for Voting');
+  console.log("MAJOR! Eligible for Voting");
+  window.alert("MAJOR! Eligible for Voting");
 } else {
-  console.log('MINOR! NOT Eligible for Voting');
-  window.alert('MINOR! NOT Eligible for Voting');
+  console.log("MINOR! NOT Eligible for Voting");
+  window.alert("MINOR! NOT Eligible for Voting");
 }

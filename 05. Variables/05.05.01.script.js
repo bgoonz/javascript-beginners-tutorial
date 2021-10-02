@@ -2,13 +2,13 @@
 // Write all JavaScript code here
 
 // global variable
-var globalName = 'Global';
+var globalName = "Global";
 
 window.alert(globalName);
 
 function showName() {
   // local variable
-  var localName = 'Local';
+  var localName = "Local";
 
   window.alert(localName);
   window.alert(globalName); // recall global variable

@@ -10,6 +10,6 @@
 // Loop through all the properties in the ibuilt object - window, document, navigator
 for (props in window) {
   // alert('document object properties ' + props);
-  document.write('<li>document object properties ' + props + '</li>');
-  console.log('document object properties ' + props);
+  document.write("<li>document object properties " + props + "</li>");
+  console.log("document object properties " + props);
 }

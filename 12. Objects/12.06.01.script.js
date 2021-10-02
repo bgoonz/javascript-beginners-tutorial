@@ -6,21 +6,21 @@
 // MyObject.propertyName; OR MyObject[propertyName]; OR MyObject['propertyName']
 
 var Person = {
-  name:'Dinanath',
-  domain:'IT/Software',
-  gender:'Male',
-  city:'Mumbai',
-  country:'India'
-}
+  name: "Dinanath",
+  domain: "IT/Software",
+  gender: "Male",
+  city: "Mumbai",
+  country: "India",
+};
 
 console.log(Person.name);
-console.log(Person['domain']);
+console.log(Person["domain"]);
 
-console.log('// ------------------------------');
+console.log("// ------------------------------");
 
 // Loop through an Array Elements
 for (props in Person) {
-  console.log(Person[props])
+  console.log(Person[props]);
 }
 
-console.log('// ------------------------------');
+console.log("// ------------------------------");

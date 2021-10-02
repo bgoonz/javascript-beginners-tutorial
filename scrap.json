@@ -43,10 +43,7 @@
           "type": "enum",
           "name": "layout_type",
           "label": "Layout",
-          "options": [
-            "full-width",
-            "boxed"
-          ],
+          "options": ["full-width", "boxed"],
           "default": "full-width",
           "description": "The layout of the site",
           "required": true
@@ -55,11 +52,7 @@
           "type": "enum",
           "name": "style",
           "label": "Style",
-          "options": [
-            "minimal",
-            "classic",
-            "bold"
-          ],
+          "options": ["minimal", "classic", "bold"],
           "default": "classic",
           "description": "The style of the site",
           "required": true
@@ -68,12 +61,7 @@
           "type": "enum",
           "name": "palette",
           "label": "Palette",
-          "options": [
-            "blue",
-            "green",
-            "red",
-            "gray"
-          ],
+          "options": ["blue", "green", "red", "gray"],
           "default": "blue",
           "description": "The palette of the site",
           "required": true
@@ -82,10 +70,7 @@
           "type": "enum",
           "name": "mode",
           "label": "Mode",
-          "options": [
-            "light",
-            "dark"
-          ],
+          "options": ["light", "dark"],
           "default": "dark",
           "description": "The color scheme of the site",
           "required": true
@@ -94,10 +79,7 @@
           "type": "enum",
           "name": "base_font",
           "label": "Font",
-          "options": [
-            "sans-serif",
-            "serif"
-          ],
+          "options": ["sans-serif", "serif"],
           "default": "sans-serif",
           "required": true
         },
@@ -105,17 +87,13 @@
           "type": "model",
           "name": "header",
           "label": "Header configuration",
-          "models": [
-            "header"
-          ]
+          "models": ["header"]
         },
         {
           "type": "model",
           "name": "footer",
           "label": "Footer configuration",
-          "models": [
-            "footer"
-          ]
+          "models": ["footer"]
         },
         {
           "type": "string",
@@ -175,9 +153,7 @@
           "description": "List of navigation links",
           "items": {
             "type": "model",
-            "models": [
-              "action"
-            ]
+            "models": ["action"]
           }
         },
         {
@@ -194,9 +170,7 @@
           "description": "List of navigation links",
           "items": {
             "type": "model",
-            "models": [
-              "action"
-            ]
+            "models": ["action"]
           }
         },
         {
@@ -216,11 +190,7 @@
           "type": "enum",
           "name": "anncmnt_align",
           "label": "Announcement horizontal alignment",
-          "options": [
-            "left",
-            "right",
-            "center"
-          ],
+          "options": ["left", "right", "center"],
           "default": "left",
           "description": "The horizontal alignment of the announcement content"
         },
@@ -301,9 +271,7 @@
           "description": "List of primary navigation links",
           "items": {
             "type": "model",
-            "models": [
-              "action"
-            ]
+            "models": ["action"]
           }
         },
         {
@@ -326,9 +294,7 @@
           "description": "List of secondary navigation links",
           "items": {
             "type": "model",
-            "models": [
-              "action"
-            ]
+            "models": ["action"]
           }
         },
         {
@@ -351,9 +317,7 @@
           "description": "List of tertiary navigation links",
           "items": {
             "type": "model",
-            "models": [
-              "action"
-            ]
+            "models": ["action"]
           }
         },
         {
@@ -370,9 +334,7 @@
           "description": "List of social links",
           "items": {
             "type": "model",
-            "models": [
-              "action"
-            ]
+            "models": ["action"]
           }
         },
         {
@@ -388,9 +350,7 @@
           "description": "A list of links displayed next to the copyright text",
           "items": {
             "type": "model",
-            "models": [
-              "action"
-            ]
+            "models": ["action"]
           }
         },
         {
@@ -578,9 +538,7 @@
         {
           "type": "model",
           "name": "seo",
-          "models": [
-            "stackbit_page_meta"
-          ],
+          "models": ["stackbit_page_meta"],
           "label": "Seo"
         },
         {
@@ -628,12 +586,7 @@
       "label": "Post",
       "layout": "post",
       "folder": "blog",
-      "exclude": [
-        "index.md",
-        "category/**",
-        "author/**",
-        "tag/**"
-      ],
+      "exclude": ["index.md", "category/**", "author/**", "tag/**"],
       "fields": [
         {
           "type": "string",
@@ -660,9 +613,7 @@
           "name": "author",
           "label": "Author",
           "description": "The author of the post",
-          "models": [
-            "person"
-          ]
+          "models": ["person"]
         },
         {
           "type": "list",
@@ -671,9 +622,7 @@
           "description": "The categories of the post",
           "items": {
             "type": "reference",
-            "models": [
-              "category"
-            ]
+            "models": ["category"]
           }
         },
         {
@@ -683,9 +632,7 @@
           "description": "The tags of the post",
           "items": {
             "type": "reference",
-            "models": [
-              "tag"
-            ]
+            "models": ["tag"]
           }
         },
         {
@@ -722,20 +669,14 @@
           "type": "enum",
           "name": "image_position",
           "label": "Image position (single post)",
-          "options": [
-            "left",
-            "right",
-            "top"
-          ],
+          "options": ["left", "right", "top"],
           "default": "top",
           "description": "The featured image position in the blog post relative to the post header content"
         },
         {
           "type": "model",
           "name": "seo",
-          "models": [
-            "stackbit_page_meta"
-          ],
+          "models": ["stackbit_page_meta"],
           "label": "Seo"
         },
         {
@@ -810,9 +751,7 @@
         {
           "type": "model",
           "name": "seo",
-          "models": [
-            "stackbit_page_meta"
-          ],
+          "models": ["stackbit_page_meta"],
           "label": "Seo"
         },
         {
@@ -877,9 +816,7 @@
           "label": "Action buttons",
           "items": {
             "type": "model",
-            "models": [
-              "action"
-            ]
+            "models": ["action"]
           }
         },
         {
@@ -904,12 +841,7 @@
           "type": "enum",
           "name": "media_position",
           "label": "Image or video position",
-          "options": [
-            "left",
-            "right",
-            "top",
-            "bottom"
-          ],
+          "options": ["left", "right", "top", "bottom"],
           "default": "top",
           "description": "The position of the image or video relative to the text content"
         },
@@ -917,11 +849,7 @@
           "type": "enum",
           "name": "media_width",
           "label": "Image or video width",
-          "options": [
-            "fourty",
-            "fifty",
-            "sixty"
-          ],
+          "options": ["fourty", "fifty", "sixty"],
           "default": "fifty",
           "description": "The image or video container width as a percentage of the section width. Used only when the image or video position is set to \"left\" or \"right\""
         },
@@ -929,11 +857,7 @@
           "type": "enum",
           "name": "align",
           "label": "Section alignment",
-          "options": [
-            "left",
-            "right",
-            "center"
-          ],
+          "options": ["left", "right", "center"],
           "default": "left",
           "description": "The horizontal alignment of the section content"
         },
@@ -941,12 +865,7 @@
           "type": "enum",
           "name": "padding_top",
           "label": "Section top padding",
-          "options": [
-            "none",
-            "small",
-            "medium",
-            "large"
-          ],
+          "options": ["none", "small", "medium", "large"],
           "default": "medium",
           "description": "The padding area (space) on the top of the section"
         },
@@ -954,12 +873,7 @@
           "type": "enum",
           "name": "padding_bottom",
           "label": "Section bottom padding",
-          "options": [
-            "none",
-            "small",
-            "medium",
-            "large"
-          ],
+          "options": ["none", "small", "medium", "large"],
           "default": "medium",
           "description": "The padding area (space) on the bottom of the section"
         },
@@ -974,11 +888,7 @@
           "type": "enum",
           "name": "background_color",
           "label": "Background color",
-          "options": [
-            "none",
-            "primary",
-            "secondary"
-          ],
+          "options": ["none", "primary", "secondary"],
           "default": "none",
           "description": "The background color of the section"
         },
@@ -998,11 +908,7 @@
           "type": "enum",
           "name": "background_image_size",
           "label": "Background image size",
-          "options": [
-            "auto",
-            "contain",
-            "cover"
-          ],
+          "options": ["auto", "contain", "cover"],
           "default": "cover",
           "description": "The size of the background image"
         },
@@ -1028,10 +934,7 @@
           "type": "enum",
           "name": "background_image_repeat",
           "label": "Background image repeat",
-          "options": [
-            "repeat",
-            "no-repeat"
-          ],
+          "options": ["repeat", "no-repeat"],
           "default": "no-repeat",
           "description": "Repeat the image to cover the whole area"
         },
@@ -1078,20 +981,14 @@
           "label": "Features",
           "items": {
             "type": "model",
-            "models": [
-              "feature"
-            ]
+            "models": ["feature"]
           }
         },
         {
           "type": "enum",
           "name": "feature_padding_vert",
           "label": "Feature padding vertical",
-          "options": [
-            "small",
-            "medium",
-            "large"
-          ],
+          "options": ["small", "medium", "large"],
           "default": "medium",
           "description": "The vertical spacing between section features"
         },
@@ -1099,11 +996,7 @@
           "type": "enum",
           "name": "align",
           "label": "Section alignment",
-          "options": [
-            "left",
-            "right",
-            "center"
-          ],
+          "options": ["left", "right", "center"],
           "default": "center",
           "description": "The horizontal alignment of the section content (title, subtitle)"
         },
@@ -1111,12 +1004,7 @@
           "type": "enum",
           "name": "padding_top",
           "label": "Section top padding",
-          "options": [
-            "none",
-            "small",
-            "medium",
-            "large"
-          ],
+          "options": ["none", "small", "medium", "large"],
           "default": "medium",
           "description": "The padding area (space) on the top of the section"
         },
@@ -1124,12 +1012,7 @@
           "type": "enum",
           "name": "padding_bottom",
           "label": "Section bottom padding",
-          "options": [
-            "none",
-            "small",
-            "medium",
-            "large"
-          ],
+          "options": ["none", "small", "medium", "large"],
           "default": "medium",
           "description": "The padding area (space) on the bottom of the section"
         },
@@ -1144,11 +1027,7 @@
           "type": "enum",
           "name": "background_color",
           "label": "Background color",
-          "options": [
-            "none",
-            "primary",
-            "secondary"
-          ],
+          "options": ["none", "primary", "secondary"],
           "default": "none",
           "description": "The background color of the section"
         },
@@ -1168,11 +1047,7 @@
           "type": "enum",
           "name": "background_image_size",
           "label": "Background image size",
-          "options": [
-            "auto",
-            "contain",
-            "cover"
-          ],
+          "options": ["auto", "contain", "cover"],
           "default": "cover",
           "description": "The size of the background image"
         },
@@ -1198,10 +1073,7 @@
           "type": "enum",
           "name": "background_image_repeat",
           "label": "Background image repeat",
-          "options": [
-            "repeat",
-            "no-repeat"
-          ],
+          "options": ["repeat", "no-repeat"],
           "default": "no-repeat",
           "description": "Repeat the image to cover the whole area"
         },
@@ -1248,9 +1120,7 @@
           "label": "Action buttons",
           "items": {
             "type": "model",
-            "models": [
-              "action"
-            ]
+            "models": ["action"]
           },
           "description": "Action buttons displayed below section items"
         },
@@ -1260,20 +1130,14 @@
           "label": "Grid items",
           "items": {
             "type": "model",
-            "models": [
-              "grid_item"
-            ]
+            "models": ["grid_item"]
           }
         },
         {
           "type": "enum",
           "name": "grid_cols",
           "label": "Grid columns",
-          "options": [
-            "two",
-            "three",
-            "four"
-          ],
+          "options": ["two", "three", "four"],
           "default": "three",
           "description": "Show the specified number of items in a grid row"
         },
@@ -1281,11 +1145,7 @@
           "type": "enum",
           "name": "grid_gap_vert",
           "label": "Grid gap vertical",
-          "options": [
-            "small",
-            "medium",
-            "large"
-          ],
+          "options": ["small", "medium", "large"],
           "default": "small",
           "description": "The vertical spacing between grid items"
         },
@@ -1293,11 +1153,7 @@
           "type": "enum",
           "name": "grid_gap_horiz",
           "label": "Grid gap horizontal",
-          "options": [
-            "small",
-            "medium",
-            "large"
-          ],
+          "options": ["small", "medium", "large"],
           "default": "small",
           "description": "The horizontal spacing between grid items"
         },
@@ -1312,11 +1168,7 @@
           "type": "enum",
           "name": "align",
           "label": "Section alignment",
-          "options": [
-            "left",
-            "right",
-            "center"
-          ],
+          "options": ["left", "right", "center"],
           "default": "center",
           "description": "The horizontal alignment of the section content (title, subtitle, action buttons)"
         },
@@ -1324,12 +1176,7 @@
           "type": "enum",
           "name": "padding_top",
           "label": "Section top padding",
-          "options": [
-            "none",
-            "small",
-            "medium",
-            "large"
-          ],
+          "options": ["none", "small", "medium", "large"],
           "default": "medium",
           "description": "The padding area (space) on the top of the section"
         },
@@ -1337,12 +1184,7 @@
           "type": "enum",
           "name": "padding_bottom",
           "label": "Section bottom padding",
-          "options": [
-            "none",
-            "small",
-            "medium",
-            "large"
-          ],
+          "options": ["none", "small", "medium", "large"],
           "default": "medium",
           "description": "The padding area (space) on the bottom of the section"
         },
@@ -1357,11 +1199,7 @@
           "type": "enum",
           "name": "background_color",
           "label": "Background color",
-          "options": [
-            "none",
-            "primary",
-            "secondary"
-          ],
+          "options": ["none", "primary", "secondary"],
           "default": "none",
           "description": "The background color of the section"
         },
@@ -1381,11 +1219,7 @@
           "type": "enum",
           "name": "background_image_size",
           "label": "Background image size",
-          "options": [
-            "auto",
-            "contain",
-            "cover"
-          ],
+          "options": ["auto", "contain", "cover"],
           "default": "cover",
           "description": "The size of the background image"
         },
@@ -1411,10 +1245,7 @@
           "type": "enum",
           "name": "background_image_repeat",
           "label": "Background image repeat",
-          "options": [
-            "repeat",
-            "no-repeat"
-          ],
+          "options": ["repeat", "no-repeat"],
           "default": "no-repeat",
           "description": "Repeat the image to cover the whole area"
         },
@@ -1461,9 +1292,7 @@
           "label": "Action buttons",
           "items": {
             "type": "model",
-            "models": [
-              "action"
-            ]
+            "models": ["action"]
           },
           "description": "Action buttons displayed below blog posts"
         },
@@ -1471,10 +1300,7 @@
           "type": "enum",
           "name": "blog_feed_cols",
           "label": "Blog feed columns",
-          "options": [
-            "two",
-            "three"
-          ],
+          "options": ["two", "three"],
           "default": "three",
           "description": "Show the specified number of posts in a blog feed grid row"
         },
@@ -1503,27 +1329,21 @@
           "name": "author",
           "label": "Author filter",
           "description": "Filter posts by an author",
-          "models": [
-            "person"
-          ]
+          "models": ["person"]
         },
         {
           "type": "reference",
           "name": "category",
           "label": "Category filter",
           "description": "Filter posts by a category",
-          "models": [
-            "category"
-          ]
+          "models": ["category"]
         },
         {
           "type": "reference",
           "name": "tag",
           "label": "Tag filter",
           "description": "Filter posts by a tag",
-          "models": [
-            "tag"
-          ]
+          "models": ["tag"]
         },
         {
           "type": "boolean",
@@ -1564,11 +1384,7 @@
           "type": "enum",
           "name": "align",
           "label": "Section alignment",
-          "options": [
-            "left",
-            "right",
-            "center"
-          ],
+          "options": ["left", "right", "center"],
           "default": "center",
           "description": "The horizontal alignment of the section content (title, subtitle, action buttons)"
         },
@@ -1576,12 +1392,7 @@
           "type": "enum",
           "name": "padding_top",
           "label": "Section top padding",
-          "options": [
-            "none",
-            "small",
-            "medium",
-            "large"
-          ],
+          "options": ["none", "small", "medium", "large"],
           "default": "medium",
           "description": "The padding area (space) on the top of the section"
         },
@@ -1589,12 +1400,7 @@
           "type": "enum",
           "name": "padding_bottom",
           "label": "Section bottom padding",
-          "options": [
-            "none",
-            "small",
-            "medium",
-            "large"
-          ],
+          "options": ["none", "small", "medium", "large"],
           "default": "medium",
           "description": "The padding area (space) on the bottom of the section"
         },
@@ -1609,11 +1415,7 @@
           "type": "enum",
           "name": "background_color",
           "label": "Background color",
-          "options": [
-            "none",
-            "primary",
-            "secondary"
-          ],
+          "options": ["none", "primary", "secondary"],
           "default": "none",
           "description": "The background color of the section"
         },
@@ -1633,11 +1435,7 @@
           "type": "enum",
           "name": "background_image_size",
           "label": "Background image size",
-          "options": [
-            "auto",
-            "contain",
-            "cover"
-          ],
+          "options": ["auto", "contain", "cover"],
           "default": "cover",
           "description": "The size of the background image"
         },
@@ -1663,10 +1461,7 @@
           "type": "enum",
           "name": "background_image_repeat",
           "label": "Background image repeat",
-          "options": [
-            "repeat",
-            "no-repeat"
-          ],
+          "options": ["repeat", "no-repeat"],
           "default": "no-repeat",
           "description": "Repeat the image to cover the whole area"
         },
@@ -1713,21 +1508,14 @@
           "label": "Action buttons",
           "items": {
             "type": "model",
-            "models": [
-              "action"
-            ]
+            "models": ["action"]
           }
         },
         {
           "type": "enum",
           "name": "actions_position",
           "label": "Action buttons position",
-          "options": [
-            "top",
-            "bottom",
-            "left",
-            "right"
-          ],
+          "options": ["top", "bottom", "left", "right"],
           "default": "bottom",
           "description": "The position of action buttons relative to the text content"
         },
@@ -1735,11 +1523,7 @@
           "type": "enum",
           "name": "actions_width",
           "label": "Action buttons width",
-          "options": [
-            "fourty",
-            "fifty",
-            "sixty"
-          ],
+          "options": ["fourty", "fifty", "sixty"],
           "default": "fourty",
           "description": "The action buttons container width as a percentage of the section width. Used only when the action buttons position is set to \"left\" or \"right\""
         },
@@ -1747,11 +1531,7 @@
           "type": "enum",
           "name": "align",
           "label": "Section alignment",
-          "options": [
-            "left",
-            "right",
-            "center"
-          ],
+          "options": ["left", "right", "center"],
           "default": "left",
           "description": "The horizontal alignment of the section content"
         },
@@ -1759,12 +1539,7 @@
           "type": "enum",
           "name": "padding_top",
           "label": "Section top padding",
-          "options": [
-            "none",
-            "small",
-            "medium",
-            "large"
-          ],
+          "options": ["none", "small", "medium", "large"],
           "default": "medium",
           "description": "The padding area (space) on the top of the section"
         },
@@ -1772,12 +1547,7 @@
           "type": "enum",
           "name": "padding_bottom",
           "label": "Section bottom padding",
-          "options": [
-            "none",
-            "small",
-            "medium",
-            "large"
-          ],
+          "options": ["none", "small", "medium", "large"],
           "default": "medium",
           "description": "The padding area (space) on the bottom of the section"
         },
@@ -1792,11 +1562,7 @@
           "type": "enum",
           "name": "background_color",
           "label": "Background color",
-          "options": [
-            "none",
-            "primary",
-            "secondary"
-          ],
+          "options": ["none", "primary", "secondary"],
           "default": "none",
           "description": "The background color of the section"
         },
@@ -1816,11 +1582,7 @@
           "type": "enum",
           "name": "background_image_size",
           "label": "Background image size",
-          "options": [
-            "auto",
-            "contain",
-            "cover"
-          ],
+          "options": ["auto", "contain", "cover"],
           "default": "cover",
           "description": "The size of the background image"
         },
@@ -1846,10 +1608,7 @@
           "type": "enum",
           "name": "background_image_repeat",
           "label": "Background image repeat",
-          "options": [
-            "repeat",
-            "no-repeat"
-          ],
+          "options": ["repeat", "no-repeat"],
           "default": "no-repeat",
           "description": "Repeat the image to cover the whole area"
         },
@@ -1894,11 +1653,7 @@
           "type": "enum",
           "name": "title_align",
           "label": "Title, subtitle alignment",
-          "options": [
-            "left",
-            "right",
-            "center"
-          ],
+          "options": ["left", "right", "center"],
           "default": "left",
           "description": "The horizontal alignment of the section title and subtitle"
         },
@@ -1912,11 +1667,7 @@
           "type": "enum",
           "name": "content_align",
           "label": "Content alignment",
-          "options": [
-            "left",
-            "right",
-            "center"
-          ],
+          "options": ["left", "right", "center"],
           "default": "left",
           "description": "The horizontal alignment of the section text content"
         },
@@ -1924,12 +1675,7 @@
           "type": "enum",
           "name": "form_position",
           "label": "Form position",
-          "options": [
-            "left",
-            "right",
-            "top",
-            "bottom"
-          ],
+          "options": ["left", "right", "top", "bottom"],
           "default": "bottom",
           "description": "The position of the form relative to the text content of the section"
         },
@@ -1937,11 +1683,7 @@
           "type": "enum",
           "name": "form_width",
           "label": "Form width",
-          "options": [
-            "fourty",
-            "fifty",
-            "sixty"
-          ],
+          "options": ["fourty", "fifty", "sixty"],
           "default": "fifty",
           "description": "The form container width as a percentage of the section width. Used only when the form position is set to \"left\" or \"right\""
         },
@@ -1949,10 +1691,7 @@
           "type": "enum",
           "name": "form_layout",
           "label": "Form layout",
-          "options": [
-            "stacked",
-            "inline"
-          ],
+          "options": ["stacked", "inline"],
           "default": "stacked",
           "description": "The layout of the form. \"Inline\" layout can only be used if the form has one input field"
         },
@@ -1982,9 +1721,7 @@
           "label": "Form fields",
           "items": {
             "type": "model",
-            "models": [
-              "form_field"
-            ]
+            "models": ["form_field"]
           }
         },
         {
@@ -1997,11 +1734,7 @@
           "type": "enum",
           "name": "align_vert",
           "label": "Section vertical alignment",
-          "options": [
-            "top",
-            "middle",
-            "bottom"
-          ],
+          "options": ["top", "middle", "bottom"],
           "default": "top",
           "description": "The vertical alignment of the section text content and form. Used only when the form position is set to \"left\" or \"right\""
         },
@@ -2009,12 +1742,7 @@
           "type": "enum",
           "name": "padding_top",
           "label": "Section top padding",
-          "options": [
-            "none",
-            "small",
-            "medium",
-            "large"
-          ],
+          "options": ["none", "small", "medium", "large"],
           "default": "medium",
           "description": "The padding area (space) on the top of the section"
         },
@@ -2022,12 +1750,7 @@
           "type": "enum",
           "name": "padding_bottom",
           "label": "Section bottom padding",
-          "options": [
-            "none",
-            "small",
-            "medium",
-            "large"
-          ],
+          "options": ["none", "small", "medium", "large"],
           "default": "medium",
           "description": "The padding area (space) on the bottom of the section"
         },
@@ -2042,11 +1765,7 @@
           "type": "enum",
           "name": "background_color",
           "label": "Background color",
-          "options": [
-            "none",
-            "primary",
-            "secondary"
-          ],
+          "options": ["none", "primary", "secondary"],
           "default": "none",
           "description": "The background color of the section"
         },
@@ -2066,11 +1785,7 @@
           "type": "enum",
           "name": "background_image_size",
           "label": "Background image size",
-          "options": [
-            "auto",
-            "contain",
-            "cover"
-          ],
+          "options": ["auto", "contain", "cover"],
           "default": "cover",
           "description": "The size of the background image"
         },
@@ -2096,10 +1811,7 @@
           "type": "enum",
           "name": "background_image_repeat",
           "label": "Background image repeat",
-          "options": [
-            "repeat",
-            "no-repeat"
-          ],
+          "options": ["repeat", "no-repeat"],
           "default": "no-repeat",
           "description": "Repeat the image to cover the whole area"
         },
@@ -2152,9 +1864,7 @@
           "label": "Action buttons",
           "items": {
             "type": "model",
-            "models": [
-              "action"
-            ]
+            "models": ["action"]
           }
         },
         {
@@ -2179,12 +1889,7 @@
           "type": "enum",
           "name": "media_position",
           "label": "Image or video position",
-          "options": [
-            "left",
-            "right",
-            "top",
-            "bottom"
-          ],
+          "options": ["left", "right", "top", "bottom"],
           "default": "top",
           "description": "The position of the image or video relative to the text content"
         },
@@ -2192,12 +1897,7 @@
           "type": "enum",
           "name": "media_width",
           "label": "Image or video width",
-          "options": [
-            "thirty-three",
-            "fourty",
-            "fifty",
-            "sixty"
-          ],
+          "options": ["thirty-three", "fourty", "fifty", "sixty"],
           "default": "fifty",
           "description": "The image or video container width as a percentage of the feature width. Used only when the image or video position is set to \"left\" or \"right\""
         },
@@ -2205,11 +1905,7 @@
           "type": "enum",
           "name": "align",
           "label": "Feature alignment",
-          "options": [
-            "left",
-            "right",
-            "center"
-          ],
+          "options": ["left", "right", "center"],
           "default": "left",
           "description": "The horizontal alignment of the feature content"
         },
@@ -2254,11 +1950,7 @@
           "type": "enum",
           "name": "title_align",
           "label": "Title, subtitle alignment",
-          "options": [
-            "left",
-            "right",
-            "center"
-          ],
+          "options": ["left", "right", "center"],
           "default": "left",
           "description": "The horizontal alignment of the item title and subtitle"
         },
@@ -2272,11 +1964,7 @@
           "type": "enum",
           "name": "content_align",
           "label": "Content alignment",
-          "options": [
-            "left",
-            "right",
-            "center"
-          ],
+          "options": ["left", "right", "center"],
           "default": "left",
           "description": "The horizontal alignment of the item text content"
         },
@@ -2286,20 +1974,14 @@
           "label": "Action buttons",
           "items": {
             "type": "model",
-            "models": [
-              "action"
-            ]
+            "models": ["action"]
           }
         },
         {
           "type": "enum",
           "name": "actions_align",
           "label": "Action buttons alignment",
-          "options": [
-            "left",
-            "right",
-            "center"
-          ],
+          "options": ["left", "right", "center"],
           "default": "left",
           "description": "The horizontal alignment of the item action buttons"
         },
@@ -2307,10 +1989,7 @@
           "type": "enum",
           "name": "actions_width",
           "label": "Action buttons width",
-          "options": [
-            "auto",
-            "full-width"
-          ],
+          "options": ["auto", "full-width"],
           "default": "auto",
           "description": "The width of action button"
         },
@@ -2330,12 +2009,7 @@
           "type": "enum",
           "name": "image_position",
           "label": "Image position",
-          "options": [
-            "left",
-            "right",
-            "top",
-            "bottom"
-          ],
+          "options": ["left", "right", "top", "bottom"],
           "default": "top",
           "description": "The position of the image relative to the text content"
         },
@@ -2357,11 +2031,7 @@
           "type": "enum",
           "name": "image_align",
           "label": "Image alignment",
-          "options": [
-            "left",
-            "right",
-            "center"
-          ],
+          "options": ["left", "right", "center"],
           "default": "left",
           "description": "The horizontal alignment of the image"
         },
@@ -2489,11 +2159,7 @@
           "type": "enum",
           "name": "style",
           "label": "Style",
-          "options": [
-            "link",
-            "primary",
-            "secondary"
-          ],
+          "options": ["link", "primary", "secondary"],
           "default": "link",
           "required": true
         },
@@ -2523,11 +2189,7 @@
           "type": "enum",
           "name": "icon_position",
           "label": "Icon position",
-          "options": [
-            "left",
-            "right",
-            "center"
-          ],
+          "options": ["left", "right", "center"],
           "default": "right",
           "description": "Select \"center\" to display icon only and hide the label"
         },

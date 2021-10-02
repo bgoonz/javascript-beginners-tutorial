@@ -4,23 +4,23 @@
 // Parameterized function
 
 //1. define / declare / create function
-function sayHello (name) {
-  //Body of function 
+function sayHello(name) {
+  //Body of function
   //code to be executed
-  console.log('Hello ' + name);
-  alert('Hello ' + name);    
+  console.log("Hello " + name);
+  alert("Hello " + name);
 }
 
 //2. invoke / call the function
-sayHello('Dinanath');
+sayHello("Dinanath");
 
-sayHello('Dino');
+sayHello("Dino");
 
 // ------------------------------
 
 var total;
 
-function calculateSum (num1, num2) {
+function calculateSum(num1, num2) {
   total = num1 + num2;
   console.log(total);
 }

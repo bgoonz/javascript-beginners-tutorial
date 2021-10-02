@@ -11,22 +11,22 @@ function Technology(name, version, type) {
   console.log(this.type);
 }
 
-let JavaScript = new Technology('JavaScript', 6, 'Script Language');
+let JavaScript = new Technology("JavaScript", 6, "Script Language");
 console.log(JavaScript.version);
 
-console.log('// ------------------------------');
+console.log("// ------------------------------");
 
-function Vehicle(brand,model,color,price) {
+function Vehicle(brand, model, color, price) {
   this.brand = brand;
   this.model = model;
   this.color = color;
   this.price = price;
   this.keyStart = function () {
-    console.log(this.model + ' started!');
-  }
+    console.log(this.model + " started!");
+  };
 }
 
-var Maruti = new Vehicle('Maruti','Alto-100','White',400000);
+var Maruti = new Vehicle("Maruti", "Alto-100", "White", 400000);
 Maruti.keyStart();
 
-console.log('// ------------------------------');
+console.log("// ------------------------------");

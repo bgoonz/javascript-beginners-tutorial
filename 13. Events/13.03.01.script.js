@@ -3,7 +3,7 @@
 
 // event handler function
 
-function fnShowMessage () {
-  console.log('Welcome to fnShowMessage event handler!');
-  alert('Welcome to fnShowMessage event handler!');
+function fnShowMessage() {
+  console.log("Welcome to fnShowMessage event handler!");
+  alert("Welcome to fnShowMessage event handler!");
 }

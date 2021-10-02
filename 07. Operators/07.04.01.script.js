@@ -4,16 +4,16 @@
 // Logical operators - basic examples
 
 // && (Logical AND) - returns true if both operands are true
-console.log('true && true: ', true && true);
-console.log('true && false: ', true && false);
-console.log('false && true: ', false && true);
+console.log("true && true: ", true && true);
+console.log("true && false: ", true && false);
+console.log("false && true: ", false && true);
 
 // ------------------------------
 
 // || (Logical OR) - returns true if one of the operand is true
-console.log('true || true: ', true || true);
-console.log('true || false: ', true || false);
-console.log('false || true: ', false || true);
+console.log("true || true: ", true || true);
+console.log("true || false: ", true || false);
+console.log("false || true: ", false || true);
 
 // ------------------------------
 
@@ -21,4 +21,4 @@ console.log('false || true: ', false || true);
 var isSeniorCitizen = true;
 
 var isYoungGeneration = !isSeniorCitizen;
-console.log('isYoungGeneration: ', isYoungGeneration);
+console.log("isYoungGeneration: ", isYoungGeneration);

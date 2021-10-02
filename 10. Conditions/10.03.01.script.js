@@ -15,21 +15,21 @@ let num1 = 200;
 let num2 = 100;
 
 if (num1 == num2) {
-  console.log('Both numbers are equal');
-} else if (num1 < num2 ) {
-  console.log('Number2 is greater!');
+  console.log("Both numbers are equal");
+} else if (num1 < num2) {
+  console.log("Number2 is greater!");
 } else {
-  console.log('Number1 is greater!');
+  console.log("Number1 is greater!");
 }
 
 // ------------------------------
 
-let age = 15; 
+let age = 15;
 
 if (age >= 60) {
-  console.log('SINIOR CIRIZEN!');
+  console.log("SINIOR CIRIZEN!");
 } else if (age < 18) {
-  console.log('MINOR!');
+  console.log("MINOR!");
 } else {
-  console.log('MAJOR - Middle Age!');
+  console.log("MAJOR - Middle Age!");
 }

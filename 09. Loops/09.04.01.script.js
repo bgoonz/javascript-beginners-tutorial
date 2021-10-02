@@ -10,9 +10,9 @@
 // An array with some elements
 let arrColors = ["Red", "Green", "Blue", "Cyan", "Magenta", "Yellow", "Black"];
 
-// Loop through all the elements in the array 
+// Loop through all the elements in the array
 for (let color in arrColors) {
-  alert('Color is: ' + arrColors[color]);
-  document.write('<li>Color is: ' + arrColors[color] + '</li>');
-  console.log('Color is: ' + arrColors[color]);
+  alert("Color is: " + arrColors[color]);
+  document.write("<li>Color is: " + arrColors[color] + "</li>");
+  console.log("Color is: " + arrColors[color]);
 }

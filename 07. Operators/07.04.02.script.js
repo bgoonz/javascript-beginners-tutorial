@@ -10,12 +10,12 @@ var isEligibleForLoan;
 
 // check eligibility with && Logical AND operator
 isEligibleForLoan = isEarningHighIncome && isGoodCibilScore;
-alert('isEligibleForLoan: ' + isEligibleForLoan);
+alert("isEligibleForLoan: " + isEligibleForLoan);
 
 // check eligibility with || Logical OR operator
 isEligibleForLoan = isEarningHighIncome || isGoodCibilScore;
-alert('isEligibleForLoan: ' + isEligibleForLoan);
+alert("isEligibleForLoan: " + isEligibleForLoan);
 
 // ! Logical NOT
 var isLoanRefused = !isEligibleForLoan;
-alert('isLoanRefused: ' + isLoanRefused);
+alert("isLoanRefused: " + isLoanRefused);

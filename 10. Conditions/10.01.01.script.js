@@ -8,16 +8,16 @@
 }
 */
 
-let user = 'Dinanath';
+let user = "Dinanath";
 
-if (user == 'Dinanath') {
-  console.log('Welcome Dinanath!');
-  window.alert('Welcome Dinanath!');
+if (user == "Dinanath") {
+  console.log("Welcome Dinanath!");
+  window.alert("Welcome Dinanath!");
 }
 
-if (user == 'Dinanath') {
-  console.log('Welcome Authorised User: ' + user + '!');
-  window.alert('Welcome Authorised User: ' + user + '!');
+if (user == "Dinanath") {
+  console.log("Welcome Authorised User: " + user + "!");
+  window.alert("Welcome Authorised User: " + user + "!");
 }
 
 // ------------------------------
@@ -25,6 +25,6 @@ if (user == 'Dinanath') {
 let age = 20;
 
 if (age >= 18) {
-  console.log('MAJOR! Eligible for Voting');
-  window.alert('MAJOR! Eligible for Voting');
+  console.log("MAJOR! Eligible for Voting");
+  window.alert("MAJOR! Eligible for Voting");
 }
