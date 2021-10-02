@@ -130,6 +130,7 @@ console.log("Learning " + techName + version);
 ```
 
 ---
+
 ---
 
 ```js
@@ -143,6 +144,7 @@ console.log("Welcome " + userName);
 ```
 
 ---
+
 ---
 
 ```js
@@ -262,6 +264,7 @@ console.log("outside: " + version1);
 ```
 
 ---
+
 ---
 
 ```js
@@ -295,6 +298,7 @@ console.log(PI1); // 100
 ```
 
 ---
+
 ---
 
 ```js
@@ -321,6 +325,7 @@ var message2 = 'Welcome! How"s you doing?';
 ```
 
 ---
+
 ---
 
 ```js
@@ -331,6 +336,7 @@ const PI = 3.14;
 ```
 
 ---
+
 ---
 
 ```js
@@ -347,6 +353,7 @@ console.log("num1 & num3 equal: " + (num1 == num3));
 ```
 
 ---
+
 ---
 
 ```js
@@ -359,6 +366,7 @@ alert("dob2: " + dob); // shows undefined
 ```
 
 ---
+
 ---
 
 ```js
@@ -525,6 +533,7 @@ console.log("false && true: ", false && true);
 ```
 
 ---
+
 ---
 
 ```js
@@ -535,6 +544,7 @@ console.log("false || true: ", false || true);
 ```
 
 ---
+
 ---
 
 ```js
@@ -739,6 +749,7 @@ sayHello("Dino");
 ```
 
 ---
+
 ---
 
 ```js
@@ -778,6 +789,7 @@ sayHello("Amber");
 ```
 
 ---
+
 ---
 
 ```js
@@ -834,6 +846,7 @@ function getSum1(num1, num2) {
 ```
 
 ---
+
 ---
 
 ```js
@@ -847,6 +860,7 @@ alert(getSum2(10, 20));
 ```
 
 ---
+
 ---
 
 ```js
@@ -871,6 +885,7 @@ function getSum1(num1, num2) {
 ```
 
 ---
+
 ---
 
 ```js
@@ -884,6 +899,7 @@ alert(getSum2(10, 20));
 ```
 
 ---
+
 ---
 
 ```js
@@ -1244,6 +1260,7 @@ if (user == "Dinanath") {
 ```
 
 ---
+
 ---
 
 ```js
@@ -1284,6 +1301,7 @@ if (user == "Dinanath") {
 ```
 
 ---
+
 ---
 
 ```js
@@ -1329,6 +1347,7 @@ if (num1 == num2) {
 ```
 
 ---
+
 ---
 
 ```js
@@ -1383,6 +1402,7 @@ switch (grade) {
 ```
 
 ---
+
 ---
 
 ```js
@@ -1421,6 +1441,7 @@ console.log(arrColors); // show all elements
 ```
 
 ---
+
 ---
 
 ```js
@@ -1429,6 +1450,7 @@ console.log(arrCities[1]); // show 1st index ie. 2nd positioned element
 ```
 
 ---
+
 ---
 
 ```js
@@ -1467,6 +1489,7 @@ for (let i = 0; i < arrColors.length; i++) {
 ```
 
 ---
+
 ---
 
 ```js
@@ -1480,6 +1503,7 @@ console.log(arrCities); // show all elements
 ```
 
 ---
+
 ---
 
 ```js
@@ -1510,6 +1534,7 @@ console.log(arrColors); // show all elements
 ```
 
 ---
+
 ---
 
 ```js
@@ -1518,6 +1543,7 @@ console.log(arrCities); // show all elements
 ```
 
 ---
+
 ---
 
 ```js
@@ -1550,6 +1576,7 @@ console.log(arrColors.length);
 ```
 
 ---
+
 ---
 
 ```js
@@ -1558,6 +1585,7 @@ console.log(arrCities.length);
 ```
 
 ---
+
 ---
 
 ```js
@@ -1591,6 +1619,7 @@ console.log(arrColors[2]); // Blue
 ```
 
 ---
+
 ---
 
 ```js
@@ -1600,6 +1629,7 @@ console.log(arrCities[4]); // Chennai
 ```
 
 ---
+
 ---
 
 ```js
@@ -1649,6 +1679,7 @@ console.log("arrColors.length: " + arrColors.length);
 ```
 
 ---
+
 ---
 
 ```js
@@ -1659,6 +1690,7 @@ console.log("arrColors.length: " + arrColors.length);
 ```
 
 ---
+
 ---
 
 ```js
@@ -1691,6 +1723,7 @@ console.log("arrColors.length: " + arrColors.length);
 ```
 
 ---
+
 ---
 
 ```js

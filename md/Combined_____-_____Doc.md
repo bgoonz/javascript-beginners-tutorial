@@ -1,11 +1,10 @@
 # JavaScript for Beginners
 
-
-###  Resources:
+### Resources:
 
 ---
 
-###  Table of Contents
+### Table of Contents
 
 1. **[Call Stack](#1-call-stack)**
 2. **[Primitive Types](#2-primitive-types)**
@@ -43,7 +42,7 @@
 
 ---
 
-###  1. Call Stack
+### 1. Call Stack
 
 ### # Reference
 
@@ -75,7 +74,7 @@
 
 ---
 
-###  2. Primitive Types
+### 2. Primitive Types
 
 ### # Reference
 
@@ -105,7 +104,7 @@
 
 ---
 
-###  3. Value Types and Reference Types
+### 3. Value Types and Reference Types
 
 ### # Articles
 
@@ -127,7 +126,7 @@
 
 ---
 
-###  4. Implicit, Explicit, Nominal, Structuring and Duck Typing
+### 4. Implicit, Explicit, Nominal, Structuring and Duck Typing
 
 ### # Articles
 
@@ -150,7 +149,7 @@
 
 ---
 
-###  5. == vs === vs typeof
+### 5. == vs === vs typeof
 
 ### # Articles
 
@@ -171,7 +170,7 @@
 
 ---
 
-###  6. Function Scope, Block Scope and Lexical Scope
+### 6. Function Scope, Block Scope and Lexical Scope
 
 ### # Books
 
@@ -201,7 +200,7 @@
 
 ---
 
-###  7. Expression vs Statement
+### 7. Expression vs Statement
 
 ### # Articles
 
@@ -218,7 +217,7 @@
 
 ---
 
-###  8. IIFE, Modules and Namespaces
+### 8. IIFE, Modules and Namespaces
 
 ### # Articles
 
@@ -246,7 +245,7 @@
 
 ---
 
-###  9. Message Queue and Event Loop
+### 9. Message Queue and Event Loop
 
 ### # Articles
 
@@ -271,7 +270,7 @@
 
 ---
 
-###  10. setTimeout, setInterval and requestAnimationFrame
+### 10. setTimeout, setInterval and requestAnimationFrame
 
 ### # Articles
 
@@ -291,7 +290,7 @@
 
 ---
 
-###  11. JavaScript Engines
+### 11. JavaScript Engines
 
 ### # Articles
 
@@ -310,7 +309,7 @@
 
 ---
 
-###  12. Bitwise Operators, Type Arrays and Array Buffers
+### 12. Bitwise Operators, Type Arrays and Array Buffers
 
 ### # Articles
 
@@ -327,7 +326,7 @@
 
 ---
 
-###  13. DOM and Layout Trees
+### 13. DOM and Layout Trees
 
 ### # Books
 
@@ -353,7 +352,7 @@
 
 ---
 
-###  14. Factories and Classes
+### 14. Factories and Classes
 
 ### # Articles
 
@@ -377,7 +376,7 @@
 
 ---
 
-###  15. this, call, apply and bind
+### 15. this, call, apply and bind
 
 ### # Reference
 
@@ -423,7 +422,7 @@
 
 ---
 
-###  16. new, Constructor, instanceof and Instances
+### 16. new, Constructor, instanceof and Instances
 
 ### # Articles
 
@@ -438,7 +437,7 @@
 
 ---
 
-###  17. Prototype Inheritance and Prototype Chain
+### 17. Prototype Inheritance and Prototype Chain
 
 ### # Reference
 
@@ -488,7 +487,7 @@
 
 ---
 
-###  18. Object.create and Object.assign
+### 18. Object.create and Object.assign
 
 ### # Reference
 
@@ -516,7 +515,7 @@
 
 ---
 
-###  19. map, reduce, filter
+### 19. map, reduce, filter
 
 ### # Articles
 
@@ -571,7 +570,7 @@
 
 ---
 
-###  20. Pure Functions, Side Effects, State Mutation and Event Propagation
+### 20. Pure Functions, Side Effects, State Mutation and Event Propagation
 
 ### # Articles
 
@@ -605,7 +604,7 @@
 
 ---
 
-###  21. Closures
+### 21. Closures
 
 ### # Reference
 
@@ -651,7 +650,7 @@
 
 ---
 
-###  22. High Order Functions
+### 22. High Order Functions
 
 ### # Books
 
@@ -682,7 +681,7 @@
 
 ---
 
-###  23. Recursion
+### 23. Recursion
 
 ### # Articles
 
@@ -711,7 +710,7 @@
 
 ---
 
-###  24. Collections and Generators
+### 24. Collections and Generators
 
 ### # Reference
 
@@ -746,7 +745,7 @@
 
 ---
 
-###  25. Promises
+### 25. Promises
 
 ### # Reference
 
@@ -791,7 +790,7 @@
 
 ---
 
-###  26. async/await
+### 26. async/await
 
 ### # Reference
 
@@ -836,7 +835,7 @@
 
 ---
 
-###  27. Data Structures
+### 27. Data Structures
 
 ### # Articles
 
@@ -863,7 +862,7 @@
 
 ---
 
-###  28. Expensive Operation and Big O Notation
+### 28. Expensive Operation and Big O Notation
 
 ### # Articles
 
@@ -883,7 +882,7 @@
 
 ---
 
-###  29. Algorithms
+### 29. Algorithms
 
 ### # Articles
 
@@ -899,7 +898,7 @@
 
 ---
 
-###  30. Inheritance, Polymorphism and Code Reuse
+### 30. Inheritance, Polymorphism and Code Reuse
 
 ### # Reference
 
@@ -923,7 +922,7 @@
 
 ---
 
-###  31. Design Patterns
+### 31. Design Patterns
 
 ### # Books
 
@@ -957,7 +956,7 @@
 
 ---
 
-###  32. Partial Applications, Currying, Compose and Pipe
+### 32. Partial Applications, Currying, Compose and Pipe
 
 ### # Books
 
@@ -1005,7 +1004,7 @@
 
 ---
 
-###  33. Clean Code
+### 33. Clean Code
 
 ### # Articles
 
@@ -1025,28 +1024,24 @@
 - 🎥 [JavaScript Pro Tips - Code This, NOT That](https://www.youtube.com/watch?v=Mus_vwhTCq0)
 - 🎥 [Clean Code: Functions(Part 1) - Beau teaches](https://www.youtube.com/watch?v=RR_dQ4sBSBM)
 
-
-
-
-
 JavaScript is a \`scripting language of web\` allows you to do Interactivity with User-Events, implement Conditions and Validations, Dynamic updates in a Web Page etc.. In this practical course will learn JavaScript basics-programming fundamentals from scratch. Will start with what is JavaScript? its uses, history, how to write JavaScript etc. Will also cover various programming building blocks like variable, functions, array, conditionals, objects and many more.
 
-###  What is JavaScript?
+### What is JavaScript?
 
 - JavaScript is \`1 of the 3 core language/layers\` of web...(HTML, CSS & JavaScript)
 - JavaScript is one of the most popular, widely used, lightweight scripting programming language
 - JavaScript is an \`Open Source\`, \`Cross Platform\`, Browser based Client Side (user computer) programming language of web
 
-###  03.JavaScript Getting Started
+### 03.JavaScript Getting Started
 
-###  03.01. How to write Javascript? JavaScript in HTML
+### 03.01. How to write Javascript? JavaScript in HTML
 
 - The HTML \`script...../script\` tag is used to embed/insert/implement a JavaScript programs/code into any part of an HTML document/page
 - The \`script...../script\` tag specifies that we are using JavaScript
 - The \`script...../script\` element can be placed in the \`head\`, or \`body\` section of an HTML document
 - Each \`script...../script\` tag blocks the page rendering process until it has fully downloaded and executed the JavaScript code
 
-#  Where to embedd/include/write/put JavaScript in HTML?
+# Where to embedd/include/write/put JavaScript in HTML?
 
 JavaScript provides 3 places to write the JavaScript code in our webpage:
 
@@ -1054,7 +1049,7 @@ JavaScript provides 3 places to write the JavaScript code in our webpage:
 2.  Inside the BODY section
 3.  External JavaScript .js file (separation of concern)
 
-###  03.02.01. Inside the HEAD section (code between the head tag)
+### 03.02.01. Inside the HEAD section (code between the head tag)
 
 - JavaScript programs/code/statements can be placed in the \`head\` section of an HTML page
 - As each \`script...../script\` tag blocks the page rendering process until it has fully downloaded and executed the JavaScript code so placing them in the \`head section (head element\` of the document without any valid reason will significantly impact your website performance
@@ -1067,12 +1062,12 @@ JavaScript provides 3 places to write the JavaScript code in our webpage:
 2.  Inside the BODY section
 3.  External JavaScript .js file (separation of concern)
 
-###  03.02.02. Inside the BODY section (code between the body tag)
+### 03.02.02. Inside the BODY section (code between the body tag)
 
 - JavaScript programs/code/statements can be placed in the \`body\` section of an HTML page
 - As blocking nature of \`script...../script\` tag ideally, scripts should be placed at the end of the \`body section\`, just before the \`closing /body tag\`, it will make your web pages load faster, since it prevents obstruction of initial page rendering
 
-#  Where to embedd/include/write/put JavaScript in HTML?
+# Where to embedd/include/write/put JavaScript in HTML?
 
 JavaScript provides 3 places to write the JavaScript code in our webpage:
 
@@ -1080,7 +1075,7 @@ JavaScript provides 3 places to write the JavaScript code in our webpage:
 2.  Inside the BODY section
 3.  External JavaScript .js file (separation of concern)
 
-###  03.02.03. External JavaScript .js file (separation of concern)
+### 03.02.03. External JavaScript .js file (separation of concern)
 
 - We can easily write JavaScript code in between the \`script element\`. In a real world application, we have 100+ maybe even a 1000+ lines of code, we don't want to write all that code in line here
 - We must have to \`extract and separate\` our JavaScript behavior code from our html markup code
@@ -1089,7 +1084,7 @@ JavaScript provides 3 places to write the JavaScript code in our webpage:
   - One can provide a \`full URL (absolute path)\` or \`relative path\` from current page
 - We can create single external JavaScript file and embed it in many html page which provides \`code re-usability\`
 
-###  03.03. JavaScript Code structure
+### 03.03. JavaScript Code structure
 
 The syntax of JavaScript is the \`set of rules\` that define a correctly structured JavaScript program. Lets study some of the building blocks of JavaScript code:
 
@@ -1099,25 +1094,25 @@ The syntax of JavaScript is the \`set of rules\` that define a correctly structu
 4.  Case Sensitivity
 5.  JavaScript Code Blocks
 
-###  03.03.05. JavaScript Code Blocks
+### 03.03.05. JavaScript Code Blocks
 
 - JavaScript commands/statements/code can be grouped together in code blocks, \`inside curly brackets {...}\`
 - Grouped statements/lines form code blocks
 - The purpose of code blocks is to define statements to be executed together like a single JavaScript command
 - An often occurrence of a code block in JavaScript is a JavaScript \`function\`
 
-###  03.05. Comments
+### 03.05. Comments
 
 - The comments are meaningful way to \`deliver message\` for others/for future reference
 - Comments are special lines written for other developers as a reference purpose and browser ignores while interpreting
 - It is used to add information about the code, warnings or suggestions so that end user can easily interpret the code
 
-###  03.05.01. Single-line Comments
+### 03.05.01. Single-line Comments
 
 - Single-line JavaScript comments are used for one line of comment only
 - Single-line comments starts with \`two forward slash\`: // is single comment
 
-###  03.05.02. Multi-line Comments
+### 03.05.02. Multi-line Comments
 
 - Multi-line comments usually comment out a block of code
 - Multi-line commends are more convenient as it can be used to comment single as well as multi line comments
@@ -1131,14 +1126,14 @@ The syntax of JavaScript is the \`set of rules\` that define a correctly structu
 - That is why you have to use the JavaScript output function to generating output \`(browser window or browser console dialog boxes, writing output into an HTML element, etc.)\`
 - Using different output methods knowledge will help you while debugging or rewriting your code more conveniently
 
-###  Different ways to show output/display data
+### Different ways to show output/display data
 
 1.  Writing into an alert box with \`alert() or window.alert()\`
 2.  Writing into browser console with \`console.log()\`
 3.  Writing into the HTML / Browser Window with \`document.write()\`
 4.  Write into an element of HTML / Inserting Output Inside an HTML Element with \`innerHTML\`
 
-###  04.01.01. Displaying Output in Alert Dialog Boxes: alert() or window.alert()
+### 04.01.01. Displaying Output in Alert Dialog Boxes: alert() or window.alert()
 
 - One can use \`alert dialog boxes\` to display the message or output data to the user
 - An alert dialog box is created using the \`alert() or window.alert()\` method
@@ -1150,14 +1145,14 @@ The syntax of JavaScript is the \`set of rules\` that define a correctly structu
 - That is why you have to use the JavaScript output function to generating output \`(browser window or browser console dialog boxes, writing output into an HTML element, etc.)\`
 - Using different output methods knowledge will help you while debugging or rewriting your code more conveniently
 
-###  Different ways to show output/display data
+### Different ways to show output/display data
 
 1.  Writing into an alert box with \`alert() or window.alert()\`
 2.  Writing into browser console with \`console.log()\`
 3.  Writing into the HTML / Browser Window with \`document.write()\`
 4.  Write into an element of HTML / Inserting Output Inside an HTML Element with \`innerHTML\`
 
-###  04.01.02. Writing Output to Browser Console: console.log()
+### 04.01.02. Writing Output to Browser Console: console.log()
 
 - Programmers can easily outputs a message or writes data to the browser console using the \`console.log()\` method
 - \`console.log()\` function is mainly/widely used for \`debugging code\` as it makes the JavaScript output print to console
@@ -1171,14 +1166,14 @@ The syntax of JavaScript is the \`set of rules\` that define a correctly structu
 - That is why you have to use the JavaScript output function to generating output \`(browser window or browser console dialog boxes, writing output into an HTML element, etc.)\`
 - Using different output methods knowledge will help you while debugging or rewriting your code more conveniently
 
-###  Different ways to show output/display data
+### Different ways to show output/display data
 
 1.  Writing into an alert box with \`alert() or window.alert()\`
 2.  Writing into browser console with \`console.log()\`
 3.  Writing into the HTML / Browser Window with \`document.write()\`
 4.  Write into an element of HTML / Inserting Output Inside an HTML Element with \`innerHTML\`
 
-###  04.01.03. Writing Output into the HTML / Browser Window: document.write()
+### 04.01.03. Writing Output into the HTML / Browser Window: document.write()
 
 - \`document.write()\` method is used to write the content to the current document while document is being parsed
 - Programmers do ues \`document.write()\` for \`testing purposes\`
@@ -1190,14 +1185,14 @@ The syntax of JavaScript is the \`set of rules\` that define a correctly structu
 - That is why you have to use the JavaScript output function to generating output \`(browser window or browser console dialog boxes, writing output into an HTML element, etc.)\`
 - Using different output methods knowledge will help you while debugging or rewriting your code more conveniently
 
-###  Different ways to show output/display data
+### Different ways to show output/display data
 
 1.  Writing into an alert box with \`alert() or window.alert()\`
 2.  Writing into browser console with \`console.log()\`
 3.  Writing into the HTML / Browser Window with \`document.write()\`
 4.  Write into an element of HTML / Inserting Output Inside an HTML Element with \`innerHTML\`
 
-###  04.01.04. Inserting Output Inside an HTML Element: innerHTML
+### 04.01.04. Inserting Output Inside an HTML Element: innerHTML
 
 - We can write or insert output inside an HTML element using the element's \`innerHTML\` property
 - First we need to select the element using a method such as \`document.getElementById(id)\`
@@ -1207,7 +1202,7 @@ The syntax of JavaScript is the \`set of rules\` that define a correctly structu
 
 Variables are one of the most fundamental concepts in JavaScript and other all programming languages.
 
-###  05.01. Variable
+### 05.01. Variable
 
 - Variable is \`container to store/hold the data/information\`
 - Variable is kind of data holder where we can store some value for programming or calculation purpose
@@ -1219,7 +1214,7 @@ Variables are one of the most fundamental concepts in JavaScript and other all p
 
 Variables are one of the most fundamental concepts in JavaScript and other all programming languages.
 
-###  05.01. Variable
+### 05.01. Variable
 
 - Variable is \`container to store/hold the data/information\`
 - Variable is kind of data holder where we can store some value for programming or calculation purpose
@@ -1227,7 +1222,7 @@ Variables are one of the most fundamental concepts in JavaScript and other all p
 - The \`assignment operator (=)\` is used to assign value to a variable, like this: \`var varName = value;\` or \`var firstName = 'JavaScript';\`
 - Example: Variable declaration and assignment is just \`like Maths & Algebra\`: \`x = 10\`; and in JavaScript we write \`var x = 10;\`
 
-###  05.04. Variable Naming Conventions (Identifiers)
+### 05.04. Variable Naming Conventions (Identifiers)
 
 All JavaScript variables must be \`identified\`/referred/defined/named with \`unique names\`, called as \`identifiers\`. The naming rules in JavaScript are not much different from any other programming language.
 
@@ -1241,7 +1236,7 @@ All JavaScript variables must be \`identified\`/referred/defined/named with \`un
 
 Variables are one of the most fundamental concepts in JavaScript and other all programming languages.
 
-###  05.01. Variable
+### 05.01. Variable
 
 - Variable is \`container to store/hold the data/information\`
 - Variable is kind of data holder where we can store some value for programming or calculation purpose
@@ -1249,7 +1244,7 @@ Variables are one of the most fundamental concepts in JavaScript and other all p
 - The \`assignment operator (=)\` is used to assign value to a variable, like this: \`var varName = value;\` or \`var firstName = 'JavaScript';\`
 - Example: Variable declaration and assignment is just \`like Maths & Algebra\`: \`x = 10\`; and in JavaScript we write \`var x = 10;\`
 
-###  05.05.01. Variable Scope
+### 05.05.01. Variable Scope
 
 The scope of a variable is the region/coverage of your program in which it is defined and exist/available. JavaScript variables have two scopes:
 
@@ -1273,7 +1268,7 @@ The scope of a variable is the region/coverage of your program in which it is de
 
 Variables are one of the most fundamental concepts in JavaScript and other all programming languages.
 
-###  05.01. Variable
+### 05.01. Variable
 
 - Variable is \`container to store/hold the data/information\`
 - Variable is kind of data holder where we can store some value for programming or calculation purpose
@@ -1281,7 +1276,7 @@ Variables are one of the most fundamental concepts in JavaScript and other all p
 - The \`assignment operator (=)\` is used to assign value to a variable, like this: \`var varName = value;\` or \`var firstName = 'JavaScript';\`
 - Example: Variable declaration and assignment is just \`like Maths & Algebra\`: \`x = 10\`; and in JavaScript we write \`var x = 10;\`
 
-###  05.05. Variable Scope
+### 05.05. Variable Scope
 
 The scope of a variable is the region/coverage of your program in which it is defined and exist/available. JavaScript variables have two scopes:
 
@@ -1305,7 +1300,7 @@ The scope of a variable is the region/coverage of your program in which it is de
 
 Variables are one of the most fundamental concepts in JavaScript and other all programming languages.
 
-###  05.01. Variable
+### 05.01. Variable
 
 - Variable is \`container to store/hold the data/information\`
 - Variable is kind of data holder where we can store some value for programming or calculation purpose
@@ -1313,11 +1308,11 @@ Variables are one of the most fundamental concepts in JavaScript and other all p
 - The \`assignment operator (=)\` is used to assign value to a variable, like this: \`var varName = value;\` or \`var firstName = 'JavaScript';\`
 - Example: Variable declaration and assignment is just \`like Maths & Algebra\`: \`x = 10\`; and in JavaScript we write \`var x = 10;\`
 
-###  05.06. The let and const Keywords ES6
+### 05.06. The let and const Keywords ES6
 
 ES6 introduces two new keywords \`let\` and \`const\` for declaring variables. The \`var, let and const\` keywords are almost same, just few differences with scope. In older programms \`var\` is used a lot which declares a variable \`(function-scoped variables)\`, but in a slightly different \`old\` way, with scope issues. Both \`let\` and \`const\` keywords declare variables, \`scoped at block-level ({})\`. Block scoping means that a new scope is created \`between a pair of curly brackets {}\`.
 
-###  The let Keyword
+### The let Keyword
 
 - \`ES6\` introduces the new \`let\` keyword for declaring variables. Prior to ES6, the only way to declare a variable in JavaScript was the var keyword. Let's see what's the difference:
 - Variables declared with the \`var\` keyword are \`function-scoped\` and can be \`hoisted\` at the top within its scope
@@ -1327,7 +1322,7 @@ ES6 introduces two new keywords \`let\` and \`const\` for declaring variables. T
 
 Variables are one of the most fundamental concepts in JavaScript and other all programming languages.
 
-###  05.01. Variable
+### 05.01. Variable
 
 - Variable is \`container to store/hold the data/information\`
 - Variable is kind of data holder where we can store some value for programming or calculation purpose
@@ -1335,11 +1330,11 @@ Variables are one of the most fundamental concepts in JavaScript and other all p
 - The \`assignment operator (=)\` is used to assign value to a variable, like this: \`var varName = value;\` or \`var firstName = 'JavaScript';\`
 - Example: Variable declaration and assignment is just \`like Maths & Algebra\`: \`x = 10\`; and in JavaScript we write \`var x = 10;\`
 
-###  05.06. The let and const Keywords ES6
+### 05.06. The let and const Keywords ES6
 
 ES6 introduces two new keywords \`let\` and \`const\` for declaring variables. The \`var, let and const\` keywords are almost same, just few differences with scope. In older programms \`var\` is used a lot which declares a variable \`(function-scoped variables)\`, but in a slightly different \`old\` way, with scope issues. Both \`let\` and \`const\` keywords declare variables, \`scoped at block-level ({})\`. Block scoping means that a new scope is created \`between a pair of curly brackets {}\`.
 
-###  The const Keyword
+### The const Keyword
 
 - \`ES6\` introduces the new \`const\` keyword for declaring variables.
 - Use \`const\` to declare a constant \`(read-only / unchanging)\` variable
@@ -1354,7 +1349,7 @@ A variable in JavaScript can contain \`any type of data\`. Data types basically 
 1.  Primitive (Primary or Value) data type
 2.  Non-primitive (Reference or Composite) data type
 
-###  06.02. Primitive (Primary or Value) data type
+### 06.02. Primitive (Primary or Value) data type
 
 Primitive data types can \`hold only one value at a time\`. Primitives are \`compared by value\`. Two values are strictly equal if they have the same value.  
 There are different types of primitive data types in JavaScript. They are as follows:
@@ -1366,14 +1361,14 @@ There are different types of primitive data types in JavaScript. They are as fol
 | **Undefined** | represents undefined value (variabled declared but value not assiged) |  
 | **Null** | represents null i.e. no value at all |
 
-  # Data types
+# Data types
 
 A variable in JavaScript can contain \`any type of data\`. Data types basically specify what \`kind of data\` can be stored and manipulated within variable in a program. In JavaScript different data types are available to hold different types of values/data. There are \`two main categories/types\` of data types in JavaScript:
 
 1.  Primitive (Primary or Value) data type
 2.  Non-primitive (Reference or Composite) data type
 
-###  06.04. JavaScript has Dynamic Types
+### 06.04. JavaScript has Dynamic Types
 
 We have two types of programming languages:
 
@@ -1393,7 +1388,7 @@ A variable in JavaScript can contain \`any type of data\`. Data types basically 
 1.  Primitive (Primary or Value) data type
 2.  Non-primitive (Reference or Composite) data type
 
-###  06.05. The typeof Operator
+### 06.05. The typeof Operator
 
 - The typeof operator returns the \`type of the argument\`
 - It’s useful to process values of different types differently or want to perform a quick data type check
@@ -1408,7 +1403,7 @@ A variable in JavaScript can contain \`any type of data\`. Data types basically 
 - JavaScript operators are symbols that are used to perform operations on operands
 - Operators used along with our variables and constants to create expressions to implement logic and algorithms
 
-###  JavaScript supports the following types of operators:
+### JavaScript supports the following types of operators:
 
 1.  Arithmetic Operators
 2.  Assignment Operators
@@ -1419,7 +1414,7 @@ A variable in JavaScript can contain \`any type of data\`. Data types basically 
 7.  Special Operators
 8.  String Operators
 
-  # Operators
+# Operators
 
 \- We know/use many operators since our initial school days, they are things like addition +, multiplication \*, subtraction -, open close round bracket ( ) or square bracket \[ \]
 
@@ -1427,7 +1422,7 @@ A variable in JavaScript can contain \`any type of data\`. Data types basically 
 - JavaScript operators are symbols that are used to perform operations on operands
 - Operators used along with our variables and constants to create expressions to implement logic and algorithms
 
-###  JavaScript supports the following types of operators:
+### JavaScript supports the following types of operators:
 
 1.  Arithmetic Operators
 2.  Assignment Operators
@@ -1438,7 +1433,7 @@ A variable in JavaScript can contain \`any type of data\`. Data types basically 
 7.  Special Operators
 8.  String Operators
 
-###  07.02. Arithmetic Operators
+### 07.02. Arithmetic Operators
 
 Arithmetic operators are used to perform arithmetic operations (just like mathematics) on numbers/the operands. JavaScript supports the following Arithmetic operators (List of Arithmetic operators):
 
@@ -1452,7 +1447,7 @@ Arithmetic operators are used to perform arithmetic operations (just like mathem
 | **-- | Decrement** | var num1 = 100; num1--; Now num1 = 9 |  
 | **\*\* | Exponentiation (ES2016 / ES6)** | 2 \*\* 2 = 4 ; 2 \*\* 3 = 8 (Multiply num1 for num2 times) |
 
-  # Operators
+# Operators
 
 \- We know/use many operators since our initial school days, they are things like addition +, multiplication \*, subtraction -, open close round bracket ( ) or square bracket \[ \]
 
@@ -1460,7 +1455,7 @@ Arithmetic operators are used to perform arithmetic operations (just like mathem
 - JavaScript operators are symbols that are used to perform operations on operands
 - Operators used along with our variables and constants to create expressions to implement logic and algorithms
 
-###  JavaScript supports the following types of operators:
+### JavaScript supports the following types of operators:
 
 1.  Arithmetic Operators
 2.  Assignment Operators
@@ -1471,7 +1466,7 @@ Arithmetic operators are used to perform arithmetic operations (just like mathem
 7.  Special Operators
 8.  String Operators
 
-###  07.03. Assignment Operators
+### 07.03. Assignment Operators
 
 The Assignment operators are used to assign particular values to variables. JavaScript supports the following Assignment operators (List of Assignment operators):
 
@@ -1483,7 +1478,7 @@ The Assignment operators are used to assign particular values to variables. Java
 | **/= | Divide and assign** | var num1 = 10; num1 /= 5; Now num1 = 2 (assigns and divide value to the variable, num1 /= 5; is equivalent to num1 = num1 / 5;)|  
 | **%= | Modulus and assign** | var num1 = 10; num1 %= 5; Now num1 = 0 (assigns and Modulus value to the variable, num1 %= 5; is equivalent to num1 = num1 % 5;)|
 
-  # Operators
+# Operators
 
 \- We know/use many operators since our initial school days, they are things like addition +, multiplication \*, subtraction -, open close round bracket ( ) or square bracket \[ \]
 
@@ -1491,7 +1486,7 @@ The Assignment operators are used to assign particular values to variables. Java
 - JavaScript operators are symbols that are used to perform operations on operands
 - Operators used along with our variables and constants to create expressions to implement logic and algorithms
 
-###  JavaScript supports the following types of operators:
+### JavaScript supports the following types of operators:
 
 1.  Arithmetic Operators
 2.  Assignment Operators
@@ -1502,7 +1497,7 @@ The Assignment operators are used to assign particular values to variables. Java
 7.  Special Operators
 8.  String Operators
 
-###  07.04. Logical Operators
+### 07.04. Logical Operators
 
 - The Logical operators are used to make decisions based on multiple conditions
 - The logical operators are typically used to combine multiple conditional statements and eveluate
@@ -1514,7 +1509,7 @@ JavaScript supports the following Logical operators (List of Logical operators):
 | **|| | Logical OR** | x || y; (True if either x or y is true)|  
 | **! | Logical NOT** | !x; (True if x is not true) |
 
-  # Operators
+# Operators
 
 \- We know/use many operators since our initial school days, they are things like addition +, multiplication \*, subtraction -, open close round bracket ( ) or square bracket \[ \]
 
@@ -1522,7 +1517,7 @@ JavaScript supports the following Logical operators (List of Logical operators):
 - JavaScript operators are symbols that are used to perform operations on operands
 - Operators used along with our variables and constants to create expressions to implement logic and algorithms
 
-###  JavaScript supports the following types of operators:
+### JavaScript supports the following types of operators:
 
 1.  Arithmetic Operators
 2.  Assignment Operators
@@ -1533,7 +1528,7 @@ JavaScript supports the following Logical operators (List of Logical operators):
 7.  Special Operators
 8.  String Operators
 
-###  07.04. Logical Operators
+### 07.04. Logical Operators
 
 - The Logical operators are used to make decisions based on multiple conditions
 - The logical operators are typically used to combine multiple conditional statements and eveluate
@@ -1545,7 +1540,7 @@ JavaScript supports the following Logical operators (List of Logical operators):
 | **|| | Logical OR** | x || y; (True if either x or y is true)|  
 | **! | Logical NOT** | !x; (True if x is not true) |
 
-  # Operators
+# Operators
 
 \- We know/use many operators since our initial school days, they are things like addition +, multiplication \*, subtraction -, open close round bracket ( ) or square bracket \[ \]
 
@@ -1553,7 +1548,7 @@ JavaScript supports the following Logical operators (List of Logical operators):
 - JavaScript operators are symbols that are used to perform operations on operands
 - Operators used along with our variables and constants to create expressions to implement logic and algorithms
 
-###  JavaScript supports the following types of operators:
+### JavaScript supports the following types of operators:
 
 1.  Arithmetic Operators
 2.  Assignment Operators
@@ -1564,7 +1559,7 @@ JavaScript supports the following Logical operators (List of Logical operators):
 7.  Special Operators
 8.  String Operators
 
-###  07.05. Comparison (or Relational) Operators
+### 07.05. Comparison (or Relational) Operators
 
 - The JavaScript comparison operator compares the two operands
 - It compare two values in a Boolean fashion
@@ -1582,7 +1577,7 @@ JavaScript supports the following Comparison (or Relational) operators (List of 
 | **&lt;= | Less than or equal to** | x &lt;= y (True if x is less than or equal to y) |  
 | **&gt;= | Greater than or equal to** | x &gt;= y (True if x is greater than or equal to y)|
 
-  # Operators
+# Operators
 
 \- We know/use many operators since our initial school days, they are things like addition +, multiplication \*, subtraction -, open close round bracket ( ) or square bracket \[ \]
 
@@ -1590,7 +1585,7 @@ JavaScript supports the following Comparison (or Relational) operators (List of 
 - JavaScript operators are symbols that are used to perform operations on operands
 - Operators used along with our variables and constants to create expressions to implement logic and algorithms
 
-###  JavaScript supports the following types of operators:
+### JavaScript supports the following types of operators:
 
 1.  Arithmetic Operators
 2.  Assignment Operators
@@ -1601,7 +1596,7 @@ JavaScript supports the following Comparison (or Relational) operators (List of 
 7.  Special Operators
 8.  String Operators
 
-###  07.06. Conditional (? or ternary) Operator
+### 07.06. Conditional (? or ternary) Operator
 
 - Conditional Operator returns value based on the condition, it is like if-else
 - The conditional (ternary) operator is the only JavaScript operator that takes three operands
@@ -1611,7 +1606,7 @@ JavaScript supports the following Comparison (or Relational) operators (List of 
 | Operators | Description | Example / Result |  
 | **? | Ternary operator** | var result = x &lt; y ? 'x is smaller' : 'y is smaller' (short hand method to write if condition)|
 
-  # Operators
+# Operators
 
 \- We know/use many operators since our initial school days, they are things like addition +, multiplication \*, subtraction -, open close round bracket ( ) or square bracket \[ \]
 
@@ -1619,7 +1614,7 @@ JavaScript supports the following Comparison (or Relational) operators (List of 
 - JavaScript operators are symbols that are used to perform operations on operands
 - Operators used along with our variables and constants to create expressions to implement logic and algorithms
 
-###  JavaScript supports the following types of operators:
+### JavaScript supports the following types of operators:
 
 1.  Arithmetic Operators
 2.  Assignment Operators
@@ -1630,7 +1625,7 @@ JavaScript supports the following Comparison (or Relational) operators (List of 
 7.  Special Operators
 8.  String Operators
 
-###  07.07. String Operators
+### 07.07. String Operators
 
 Variables can also have string values, \`+ operator\` can be used to concatenate strings as well as numbers.
 
@@ -1640,7 +1635,7 @@ There are two operators which can also used be for strings:
 | **+ | Concatenation** | string1 + string2 (Concatenation of string1 and string2) |  
 | **+= | Concatenation assignment** | string1 += string2 (Appends the str2 to the str1) |
 
-  # Operators
+# Operators
 
 \- We know/use many operators since our initial school days, they are things like addition +, multiplication \*, subtraction -, open close round bracket ( ) or square bracket \[ \]
 
@@ -1648,7 +1643,7 @@ There are two operators which can also used be for strings:
 - JavaScript operators are symbols that are used to perform operations on operands
 - Operators used along with our variables and constants to create expressions to implement logic and algorithms
 
-###  JavaScript supports the following types of operators:
+### JavaScript supports the following types of operators:
 
 1.  Arithmetic Operators
 2.  Assignment Operators
@@ -1659,14 +1654,14 @@ There are two operators which can also used be for strings:
 7.  Special Operators
 8.  String Operators
 
-###  07.08. Operator precedence
+### 07.08. Operator precedence
 
 - If an expression has more than one operator, the \`execution order is defined by their precedence\`, or the implicit priority order of operators
 - Operator precedence determines/describes the way in which operators are parsed with respect to each other / \`order in which operations are performed\`
 - The operations inside the \`parentheses ()\` are computed first
 - If many operations have the same precedence (like addition and subtraction), they are \`computed from left to right\`
 
-###  08.01. Functions
+### 08.01. Functions
 
 1.  A function is basically a \`group of statements that perform specific tasks/operations\`
 2.  Functions provide a way to \`create reusable code packages\` which are more portable and easier to debug
@@ -1677,14 +1672,14 @@ There are two operators which can also used be for strings:
 7.  In other languages is might be called \`MODULES , SUB ROUTINES\`
 8.  There are two steps to utilize function: 1. create/define function with \`function\` keyword 2. call/envoke function
 
-###  Here are some advantages of using functions:
+### Here are some advantages of using functions:
 
 - Code reusability - call a function several times
 - Less coding - makes our program compact, no need to write lines of code each time
 - Easier to maintain - changes done only at one location
 - Easier to eliminate the errors - fixing errors becomes much easier
 
-###  08.01. Functions
+### 08.01. Functions
 
 1.  A function is basically a \`group of statements that perform specific tasks/operations\`
 2.  Functions provide a way to \`create reusable code packages\` which are more portable and easier to debug
@@ -1695,24 +1690,24 @@ There are two operators which can also used be for strings:
 7.  In other languages is might be called \`MODULES , SUB ROUTINES\`
 8.  There are two steps to utilize function: 1. create/define function with \`function\` keyword 2. call/envoke function
 
-###  Here are some advantages of using functions:
+### Here are some advantages of using functions:
 
 - Code reusability - call a function several times
 - Less coding - makes our program compact, no need to write lines of code each time
 - Easier to maintain - changes done only at one location
 - Easier to eliminate the errors - fixing errors becomes much easier
 
-###  08.02. Types of Function
+### 08.02. Types of Function
 
 - Regular Function
 - Parameterized Function
 - Return Type Function (Function returning values)
 
-###  08.02.01. Regular Function
+### 08.02.01. Regular Function
 
 - Simple/Normal function which we use on daily basis to perform some action/task
 
-###  08.01. Functions
+### 08.01. Functions
 
 1.  A function is basically a \`group of statements that perform specific tasks/operations\`
 2.  Functions provide a way to \`create reusable code packages\` which are more portable and easier to debug
@@ -1723,25 +1718,25 @@ There are two operators which can also used be for strings:
 7.  In other languages is might be called \`MODULES , SUB ROUTINES\`
 8.  There are two steps to utilize function: 1. create/define function with \`function\` keyword 2. call/envoke function
 
-###  Here are some advantages of using functions:
+### Here are some advantages of using functions:
 
 - Code reusability - call a function several times
 - Less coding - makes our program compact, no need to write lines of code each time
 - Easier to maintain - changes done only at one location
 - Easier to eliminate the errors - fixing errors becomes much easier
 
-###  08.02. Types of Function
+### 08.02. Types of Function
 
 - Regular Function
 - Parameterized Function
 - Return Type Function (Function returning values)
 
-###  08.02.02. Parameterized Function
+### 08.02.02. Parameterized Function
 
 - One can pass data to functions using parameters (function arguments)
 - You can specify parameters when you define your function to accept input values at run time
 
-###  08.01. Functions
+### 08.01. Functions
 
 1.  A function is basically a \`group of statements that perform specific tasks/operations\`
 2.  Functions provide a way to \`create reusable code packages\` which are more portable and easier to debug
@@ -1752,29 +1747,29 @@ There are two operators which can also used be for strings:
 7.  In other languages is might be called \`MODULES , SUB ROUTINES\`
 8.  There are two steps to utilize function: 1. create/define function with \`function\` keyword 2. call/envoke function
 
-###  Here are some advantages of using functions:
+### Here are some advantages of using functions:
 
 - Code reusability - call a function several times
 - Less coding - makes our program compact, no need to write lines of code each time
 - Easier to maintain - changes done only at one location
 - Easier to eliminate the errors - fixing errors becomes much easier
 
-###  08.02. Types of Function
+### 08.02. Types of Function
 
 - Regular Function
 - Parameterized Function
 - Return Type Function (Function returning values)
 
-###  08.02.02. Parameterized Function
+### 08.02.02. Parameterized Function
 
 - One can pass data to functions using parameters (function arguments)
 - You can specify parameters when you define your function to accept input values at run time
 
-###  Default Values for Function Parameters ES6
+### Default Values for Function Parameters ES6
 
 With ES6, now you can specify default values to the function parameters. This means that if no arguments are provided to function when it is called these default parameters values will be used.
 
-###  08.01. Functions
+### 08.01. Functions
 
 1.  A function is basically a \`group of statements that perform specific tasks/operations\`
 2.  Functions provide a way to \`create reusable code packages\` which are more portable and easier to debug
@@ -1785,26 +1780,26 @@ With ES6, now you can specify default values to the function parameters. This me
 7.  In other languages is might be called \`MODULES , SUB ROUTINES\`
 8.  There are two steps to utilize function: 1. create/define function with \`function\` keyword 2. call/envoke function
 
-###  Here are some advantages of using functions:
+### Here are some advantages of using functions:
 
 - Code reusability - call a function several times
 - Less coding - makes our program compact, no need to write lines of code each time
 - Easier to maintain - changes done only at one location
 - Easier to eliminate the errors - fixing errors becomes much easier
 
-###  08.02. Types of Function
+### 08.02. Types of Function
 
 - Regular Function
 - Parameterized Function
 - Return Type Function (Function returning values)
 
-###  08.02.03 Return Type Function (Function returning values)
+### 08.02.03 Return Type Function (Function returning values)
 
 - A function can \`return a value\` back to the script that called the \`function as a result using the return statement\`
 - We can call function that returns a value and use it in our program
 - The return statement usually placed as the last line of the function
 
-###  08.01. Functions
+### 08.01. Functions
 
 1.  A function is basically a \`group of statements that perform specific tasks/operations\`
 2.  Functions provide a way to \`create reusable code packages\` which are more portable and easier to debug
@@ -1815,26 +1810,26 @@ With ES6, now you can specify default values to the function parameters. This me
 7.  In other languages is might be called \`MODULES , SUB ROUTINES\`
 8.  There are two steps to utilize function: 1. create/define function with \`function\` keyword 2. call/envoke function
 
-###  Here are some advantages of using functions:
+### Here are some advantages of using functions:
 
 - Code reusability - call a function several times
 - Less coding - makes our program compact, no need to write lines of code each time
 - Easier to maintain - changes done only at one location
 - Easier to eliminate the errors - fixing errors becomes much easier
 
-###  08.03. Different ways to define Function
+### 08.03. Different ways to define Function
 
 - The syntax that we've used before to create functions is called \`function declaration\`.
 - There is another syntax for creating a function that is called a \`function expression\`
 - and \`Immediately invoked function expression (IIFE)\`
 
-###  08.03.02 function expression
+### 08.03.02 function expression
 
 - Variables contain the expressions of a function
 - Anonymous function expression
 - Named function expression
 
-###  08.01. Functions
+### 08.01. Functions
 
 1.  A function is basically a \`group of statements that perform specific tasks/operations\`
 2.  Functions provide a way to \`create reusable code packages\` which are more portable and easier to debug
@@ -1845,26 +1840,26 @@ With ES6, now you can specify default values to the function parameters. This me
 7.  In other languages is might be called \`MODULES , SUB ROUTINES\`
 8.  There are two steps to utilize function: 1. create/define function with \`function\` keyword 2. call/envoke function
 
-###  Here are some advantages of using functions:
+### Here are some advantages of using functions:
 
 - Code reusability - call a function several times
 - Less coding - makes our program compact, no need to write lines of code each time
 - Easier to maintain - changes done only at one location
 - Easier to eliminate the errors - fixing errors becomes much easier
 
-###  08.03. Different ways to define Function
+### 08.03. Different ways to define Function
 
 - The syntax that we've used before to create functions is called \`function declaration\`.
 - There is another syntax for creating a function that is called a \`function expression\`
 - and \`Immediately invoked function expression (IIFE)\`
 
-###  08.03.02 function expression
+### 08.03.02 function expression
 
 - Variables contain the expressions of a function
 - Anonymous function expression
 - Named function expression
 
-###  08.01. Functions
+### 08.01. Functions
 
 1.  A function is basically a \`group of statements that perform specific tasks/operations\`
 2.  Functions provide a way to \`create reusable code packages\` which are more portable and easier to debug
@@ -1875,20 +1870,20 @@ With ES6, now you can specify default values to the function parameters. This me
 7.  In other languages is might be called \`MODULES , SUB ROUTINES\`
 8.  There are two steps to utilize function: 1. create/define function with \`function\` keyword 2. call/envoke function
 
-###  Here are some advantages of using functions:
+### Here are some advantages of using functions:
 
 - Code reusability - call a function several times
 - Less coding - makes our program compact, no need to write lines of code each time
 - Easier to maintain - changes done only at one location
 - Easier to eliminate the errors - fixing errors becomes much easier
 
-###  08.03. Different ways to define Function
+### 08.03. Different ways to define Function
 
 - The syntax that we've used before to create functions is called \`function declaration\`.
 - There is another syntax for creating a function that is called a \`function expression\`
 - and \`Immediately invoked function expression (IIFE)\`
 
-###  08.03.03 Immediately invoked function expression (IIFE)
+### 08.03.03 Immediately invoked function expression (IIFE)
 
 - It runs as soon as the browser finds it
 
@@ -1900,7 +1895,7 @@ With ES6, now you can specify default values to the function parameters. This me
 1.  It makes the \`code compact\`
 1.  It is mostly used in array or object (to iterate through series)
 
-###  Different Types of Loops in JavaScript:
+### Different Types of Loops in JavaScript:
 
 1.  for Loop
 2.  while Loop
@@ -1908,7 +1903,7 @@ With ES6, now you can specify default values to the function parameters. This me
 4.  for...in Loop
 5.  for...of Loop (ES6)
 
-###  09.01. The for Loop
+### 09.01. The for Loop
 
 - The For loop is used to run a piece of code a \`set amount of times\`
 - Loops through a block of code until the \`counter reaches a specified number\`
@@ -1916,9 +1911,9 @@ With ES6, now you can specify default values to the function parameters. This me
 - The 'for' loop is the most simple/compact form of looping
 - For loop consists of 3 statements (), mostly \`i = index\` is used for loop initialization
 
-###  The for Loop output
+### The for Loop output
 
-  # Loops
+# Loops
 
 1.  Loops are used to execute the \`same block of code again, with a different value, until a certain condition is met\`
 1.  Loops can execute a block of code a number of times
@@ -1926,7 +1921,7 @@ With ES6, now you can specify default values to the function parameters. This me
 1.  It makes the \`code compact\`
 1.  It is mostly used in array or object (to iterate through series)
 
-###  Different Types of Loops in JavaScript:
+### Different Types of Loops in JavaScript:
 
 1.  for Loop
 2.  while Loop
@@ -1934,7 +1929,7 @@ With ES6, now you can specify default values to the function parameters. This me
 4.  for...in Loop
 5.  for...of Loop (ES6)
 
-###  09.01. The for Loop
+### 09.01. The for Loop
 
 - The For loop is used to run a piece of code a \`set amount of times\`
 - Loops through a block of code until the \`counter reaches a specified number\`
@@ -1942,9 +1937,9 @@ With ES6, now you can specify default values to the function parameters. This me
 - The 'for' loop is the most simple/compact form of looping
 - For loop consists of 3 statements (), mostly \`i = index\` is used for loop initialization
 
-###  The Reverse for Loop output
+### The Reverse for Loop output
 
-  # Loops
+# Loops
 
 1.  Loops are used to execute the \`same block of code again, with a different value, until a certain condition is met\`
 1.  Loops can execute a block of code a number of times
@@ -1952,7 +1947,7 @@ With ES6, now you can specify default values to the function parameters. This me
 1.  It makes the \`code compact\`
 1.  It is mostly used in array or object (to iterate through series)
 
-###  Different Types of Loops in JavaScript:
+### Different Types of Loops in JavaScript:
 
 1.  for Loop
 2.  while Loop
@@ -1960,13 +1955,13 @@ With ES6, now you can specify default values to the function parameters. This me
 4.  for...in Loop
 5.  for...of Loop (ES6)
 
-###  09.02. The while Loop
+### 09.02. The while Loop
 
 - Loops through a block of code until the specified condition evaluates to true
 
-###  The While loop output
+### The While loop output
 
-  # Loops
+# Loops
 
 1.  Loops are used to execute the \`same block of code again, with a different value, until a certain condition is met\`
 1.  Loops can execute a block of code a number of times
@@ -1974,7 +1969,7 @@ With ES6, now you can specify default values to the function parameters. This me
 1.  It makes the \`code compact\`
 1.  It is mostly used in array or object (to iterate through series)
 
-###  Different Types of Loops in JavaScript:
+### Different Types of Loops in JavaScript:
 
 1.  for Loop
 2.  while Loop
@@ -1982,14 +1977,14 @@ With ES6, now you can specify default values to the function parameters. This me
 4.  for...in Loop
 5.  for...of Loop (ES6)
 
-###  09.03. The do...while Loop
+### 09.03. The do...while Loop
 
 - The do...while loop is similar to the while loop except that the \`condition check happens at the end of the loop\`
 - The do...while loop will always be \`executed at least once (before checking if the condition is true)\`, even if the condition is false
 
-###  The do...while Loop output
+### The do...while Loop output
 
-  # Loops
+# Loops
 
 1.  Loops are used to execute the \`same block of code again, with a different value, until a certain condition is met\`
 1.  Loops can execute a block of code a number of times
@@ -1997,7 +1992,7 @@ With ES6, now you can specify default values to the function parameters. This me
 1.  It makes the \`code compact\`
 1.  It is mostly used in array or object (to iterate through series)
 
-###  Different Types of Loops in JavaScript:
+### Different Types of Loops in JavaScript:
 
 1.  for Loop
 2.  while Loop
@@ -2005,13 +2000,13 @@ With ES6, now you can specify default values to the function parameters. This me
 4.  for...in Loop
 5.  for...of Loop (ES6)
 
-###  09.04. The for...in Loop
+### 09.04. The for...in Loop
 
 - The for-in loop is a special type of a loop that iterates over the properties of an object, or the elements of an array
 
-###  The for...in Loop output
+### The for...in Loop output
 
-  # Loops
+# Loops
 
 1.  Loops are used to execute the \`same block of code again, with a different value, until a certain condition is met\`
 1.  Loops can execute a block of code a number of times
@@ -2019,7 +2014,7 @@ With ES6, now you can specify default values to the function parameters. This me
 1.  It makes the \`code compact\`
 1.  It is mostly used in array or object (to iterate through series)
 
-###  Different Types of Loops in JavaScript:
+### Different Types of Loops in JavaScript:
 
 1.  for Loop
 2.  while Loop
@@ -2027,13 +2022,13 @@ With ES6, now you can specify default values to the function parameters. This me
 4.  for...in Loop
 5.  for...of Loop (ES6)
 
-###  09.04. The for...in Loop
+### 09.04. The for...in Loop
 
 - The for-in loop is a special type of a loop that iterates over the properties of an object, or the elements of an array
 
-###  The for...in Loop output
+### The for...in Loop output
 
-  # Loops
+# Loops
 
 1.  Loops are used to execute the \`same block of code again, with a different value, until a certain condition is met\`
 1.  Loops can execute a block of code a number of times
@@ -2041,7 +2036,7 @@ With ES6, now you can specify default values to the function parameters. This me
 1.  It makes the \`code compact\`
 1.  It is mostly used in array or object (to iterate through series)
 
-###  Different Types of Loops in JavaScript:
+### Different Types of Loops in JavaScript:
 
 1.  for Loop
 2.  while Loop
@@ -2049,13 +2044,13 @@ With ES6, now you can specify default values to the function parameters. This me
 4.  for...in Loop
 5.  for...of Loop (ES6)
 
-###  09.04. The for...in Loop
+### 09.04. The for...in Loop
 
 - The for-in loop is a special type of a loop that iterates over the properties of an object, or the elements of an array
 
-###  The for...in Loop output
+### The for...in Loop output
 
-  # Loops
+# Loops
 
 1.  Loops are used to execute the \`same block of code again, with a different value, until a certain condition is met\`
 1.  Loops can execute a block of code a number of times
@@ -2063,7 +2058,7 @@ With ES6, now you can specify default values to the function parameters. This me
 1.  It makes the \`code compact\`
 1.  It is mostly used in array or object (to iterate through series)
 
-###  Different Types of Loops in JavaScript:
+### Different Types of Loops in JavaScript:
 
 1.  for Loop
 2.  while Loop
@@ -2071,15 +2066,15 @@ With ES6, now you can specify default values to the function parameters. This me
 4.  for...in Loop
 5.  for...of Loop (ES6)
 
-###  09.05. The for...of Loop (ES6)
+### 09.05. The for...of Loop (ES6)
 
 - Loops over \`iterable objects such as arrays, strings\`, etc.
 - ES6 introduces a new for-of loop which allows us to iterate over arrays or strings very easily
 - The code inside the loop is executed for each element of the iterable object
 
-###  The for...of Loop (ES6) output
+### The for...of Loop (ES6) output
 
-  # Loops
+# Loops
 
 1.  Loops are used to execute the \`same block of code again, with a different value, until a certain condition is met\`
 1.  Loops can execute a block of code a number of times
@@ -2087,7 +2082,7 @@ With ES6, now you can specify default values to the function parameters. This me
 1.  It makes the \`code compact\`
 1.  It is mostly used in array or object (to iterate through series)
 
-###  Different Types of Loops in JavaScript:
+### Different Types of Loops in JavaScript:
 
 1.  for Loop
 2.  while Loop
@@ -2095,97 +2090,97 @@ With ES6, now you can specify default values to the function parameters. This me
 4.  for...in Loop
 5.  for...of Loop (ES6)
 
-###  09.06. Break and Continue statement
+### 09.06. Break and Continue statement
 
 - \`break\` and \`continue\` keywords/statement can change \`how the loop behaves\`
 - \`break\` and \`continue\` keywords can be used in all loops to stop or continue the loop
 - The \`break\` statement is used to exit a loop early, to "jump out" of a loop, stops executing/running a loop
 - The \`continue\` statement tells the interpreter to immediately start the next iteration of the loop and skip the remaining code block
 
-#  Conditions
+# Conditions
 
 1.  Conditional statements are used to perform different action based on different condition
 1.  Conditional statements allow developer to make correct decisions and perform right actions as per condition
 1.  It helps to perform different actions for different decisions
 1.  We can use conditional operator to check our condition: &gt;, &lt;, &gt;=, &lt;=, ==, !=, ===
 
-###  We can use following conditional statements in JavaScript to make decisions:
+### We can use following conditional statements in JavaScript to make decisions:
 
 1.  If Statement
 2.  If...else Statement
 3.  If...else if...else Statement
 4.  Switch...Case Statement
 
-###  10.01. The If Statement
+### 10.01. The If Statement
 
 - If conditional statement is the simplest and basic control statement make decisions and execute statements conditionally
 - The if statement is used to execute a block of code \`only if the specified condition evaluates to true\`
 - It evaluates the content only \`if expression is true\`
 - Note: Use \`if\` to specify a block of code to be executed, if a specified condition is true
 
-#  Conditions
+# Conditions
 
 1.  Conditional statements are used to perform different action based on different condition
 1.  Conditional statements allow developer to make correct decisions and perform right actions as per condition
 1.  It helps to perform different actions for different decisions
 1.  We can use conditional operator to check our condition: &gt;, &lt;, &gt;=, &lt;=, ==, !=, ===
 
-###  We can use following conditional statements in JavaScript to make decisions:
+### We can use following conditional statements in JavaScript to make decisions:
 
 1.  If Statement
 2.  If...else Statement
 3.  If...else if...else Statement
 4.  Switch...Case Statement
 
-###  10.2. The If...else Statement
+### 10.2. The If...else Statement
 
 - The JavaScript \`if-else statement\` is used to execute the code \`whether condition is true or false\`
 - Developer can enhance the decision making capabilities by providing an alternative choice through adding an \`else\` statement to the \`if\` statement
 - Condition can be any expression that evaluates to true or false
 - If condition evaluates to true, statements_1 are executed; otherwise statements_2 are executed
 
-#  Conditions
+# Conditions
 
 1.  Conditional statements are used to perform different action based on different condition
 1.  Conditional statements allow developer to make correct decisions and perform right actions as per condition
 1.  It helps to perform different actions for different decisions
 1.  We can use conditional operator to check our condition: &gt;, &lt;, &gt;=, &lt;=, ==, !=, ===
 
-###  We can use following conditional statements in JavaScript to make decisions:
+### We can use following conditional statements in JavaScript to make decisions:
 
 1.  If Statement
 2.  If...else Statement
 3.  If...else if...else Statement
 4.  Switch...Case Statement
 
-###  10.3. The If...else if...else Statement
+### 10.3. The If...else if...else Statement
 
 - The \`if...else if...else\` a special statement that is used to \`combine multiple if...else statements\`
 - It is an advanced form of if...else that allows us to \`make a correct decision out of several conditions\`
 - Note: Use \`else if\` to specify a new condition to test, \`if the first condition is false\`
 
-#  Conditions
+# Conditions
 
 1.  Conditional statements are used to perform different action based on different condition
 1.  Conditional statements allow developer to make correct decisions and perform right actions as per condition
 1.  It helps to perform different actions for different decisions
 1.  We can use conditional operator to check our condition: &gt;, &lt;, &gt;=, &lt;=, ==, !=, ===
 
-###  We can use following conditional statements in JavaScript to make decisions:
+### We can use following conditional statements in JavaScript to make decisions:
 
 1.  If Statement
 2.  If...else Statement
 3.  If...else if...else Statement
 4.  Switch...Case Statement
 
-###  10.4. The Switch...Case Statement
+### 10.4. The Switch...Case Statement
 
 - The switch...case statement is alternative to if...else if...else statement, both does almost the same thing
 - This matches the \`case\` and the \`value of condition\` and if the case matches, the subsequent block is executed and if none of the case matches \`default block\` is executed
 - The JavaScript switch statement is used to execute one code from multiple block of expressions
 - Note\*\*: Use \`switch\` to specify many \`alternative blocks of code to be executed\`
 
-#  Array
+# Array
 
 1.  An Array is special type of variable/object which \`consists of / stores multiple values\`
 1.  Arrays are complex variables that allow us to store more than one value or a group of values under a single variable name
@@ -2195,18 +2190,18 @@ With ES6, now you can specify default values to the function parameters. This me
 1.  Array is ordered collection, where we have a 0th, 1st, a 2nd, and so on elements
 1.  Each value (an \`element\`) in an array has a \`numeric position\`, known as its \`index\`, \`starts from 0\`, so that the first array element is arr\[0\] not arr\[1\]
 
-###  Different ways to create/define an Array:
+### Different ways to create/define an Array:
 
 1.  By array literal
 2.  By creating instance of Array directly (using new keyword)
 3.  By using an Array constructor (using new keyword)
 
-###  11.02. By array literal
+### 11.02. By array literal
 
 - The simplest way to create an array in JavaScript is enclosing a \`comma-separated list of values in square brackets\[\]\`
 - var myArray = \[element0, element1, ..., elementN\];
 
-#  Array
+# Array
 
 1.  An Array is special type of variable/object which \`consists of / stores multiple values\`
 1.  Arrays are complex variables that allow us to store more than one value or a group of values under a single variable name
@@ -2216,18 +2211,18 @@ With ES6, now you can specify default values to the function parameters. This me
 1.  Array is ordered collection, where we have a 0th, 1st, a 2nd, and so on elements
 1.  Each value (an \`element\`) in an array has a \`numeric position\`, known as its \`index\`, \`starts from 0\`, so that the first array element is arr\[0\] not arr\[1\]
 
-###  Different ways to create/define an Array:
+### Different ways to create/define an Array:
 
 1.  By array literal
 2.  By creating instance of Array directly (using new keyword)
 3.  By using an Array constructor (using new keyword)
 
-###  11.03. By creating instance of Array directly (using \`new\` keyword)
+### 11.03. By creating instance of Array directly (using \`new\` keyword)
 
 - Array instance can be created using the \`new\` keyword \`new Array()\`
 - var myArray = new Array(); OR var myArray = Array();
 
-#  Array
+# Array
 
 1.  An Array is special type of variable/object which \`consists of / stores multiple values\`
 1.  Arrays are complex variables that allow us to store more than one value or a group of values under a single variable name
@@ -2237,18 +2232,18 @@ With ES6, now you can specify default values to the function parameters. This me
 1.  Array is ordered collection, where we have a 0th, 1st, a 2nd, and so on elements
 1.  Each value (an \`element\`) in an array has a \`numeric position\`, known as its \`index\`, \`starts from 0\`, so that the first array element is arr\[0\] not arr\[1\]
 
-###  Different ways to create/define an Array:
+### Different ways to create/define an Array:
 
 1.  By array literal
 2.  By creating instance of Array directly (using new keyword)
 3.  By using an Array constructor (using new keyword)
 
-###  11.04. By using an Array constructor (using \`new\` keyword)
+### 11.04. By using an Array constructor (using \`new\` keyword)
 
 - Array instance can be created using the \`new\` keyword \`new Array() passing arguments\` in constructor so that we don't have to provide value explicitly
 - var myArray = new Array(element0, element1, ..., elementN);
 
-#  Array
+# Array
 
 1.  An Array is special type of variable/object which \`consists of / stores multiple values\`
 1.  Arrays are complex variables that allow us to store more than one value or a group of values under a single variable name
@@ -2258,20 +2253,20 @@ With ES6, now you can specify default values to the function parameters. This me
 1.  Array is ordered collection, where we have a 0th, 1st, a 2nd, and so on elements
 1.  Each value (an \`element\`) in an array has a \`numeric position\`, known as its \`index\`, \`starts from 0\`, so that the first array element is arr\[0\] not arr\[1\]
 
-###  Different ways to create/define an Array:
+### Different ways to create/define an Array:
 
 1.  By array literal
 2.  By creating instance of Array directly (using new keyword)
 3.  By using an Array constructor (using new keyword)
 
-###  11.05. Getting the Length of an Array
+### 11.05. Getting the Length of an Array
 
 - The \`length\` property returns the \`length of an array\`, \`total number of elements\` in an array
 - \`length\` property brings back an \`array length - the fixed amount of items\` stored in the array
 - Array length is always greater than the index of any of its element \`(Array length = last array index + 1)\`
 - The maximum length allowed for an array is \`4,294,967,295\`
 
-#  Array
+# Array
 
 1.  An Array is special type of variable/object which \`consists of / stores multiple values\`
 1.  Arrays are complex variables that allow us to store more than one value or a group of values under a single variable name
@@ -2281,13 +2276,13 @@ With ES6, now you can specify default values to the function parameters. This me
 1.  Array is ordered collection, where we have a 0th, 1st, a 2nd, and so on elements
 1.  Each value (an \`element\`) in an array has a \`numeric position\`, known as its \`index\`, \`starts from 0\`, so that the first array element is arr\[0\] not arr\[1\]
 
-###  Different ways to create/define an Array:
+### Different ways to create/define an Array:
 
 1.  By array literal
 2.  By creating instance of Array directly (using new keyword)
 3.  By using an Array constructor (using new keyword)
 
-###  11.06. Accessing/Looping through an Array Elements
+### 11.06. Accessing/Looping through an Array Elements
 
 - Array elements can be accessed by their \`index using the square bracket notation ie. \[index\]\`
 - Arrays are \`zero-indexed\` i.e. the first element of an array is at index/position 0
@@ -2296,9 +2291,9 @@ With ES6, now you can specify default values to the function parameters. This me
 - One can use \`for loop\` in co-ordination with array \`length\` property to access each element of an array in sequential order
 - myarray\[indexNumber\], myarray\[0\] // get first array element
 
-###  Example Output: Loop through an Array Elements - Different JavaScript Frameworks
+### Example Output: Loop through an Array Elements - Different JavaScript Frameworks
 
-#  Array
+# Array
 
 1.  An Array is special type of variable/object which \`consists of / stores multiple values\`
 1.  Arrays are complex variables that allow us to store more than one value or a group of values under a single variable name
@@ -2308,13 +2303,13 @@ With ES6, now you can specify default values to the function parameters. This me
 1.  Array is ordered collection, where we have a 0th, 1st, a 2nd, and so on elements
 1.  Each value (an \`element\`) in an array has a \`numeric position\`, known as its \`index\`, \`starts from 0\`, so that the first array element is arr\[0\] not arr\[1\]
 
-###  Different ways to create/define an Array:
+### Different ways to create/define an Array:
 
 1.  By array literal
 2.  By creating instance of Array directly (using new keyword)
 3.  By using an Array constructor (using new keyword)
 
-###  11.07. Adding/Editing an Array Elements
+### 11.07. Adding/Editing an Array Elements
 
 - One can add/edit an array element by simply specifying \`array\[index\] and value\` ie. \`myarray\[5\]='value'\`
 - If array \`index exists it will simply edit\` the old value and update the array else it will add an element to the array
@@ -2322,7 +2317,7 @@ With ES6, now you can specify default values to the function parameters. This me
 - \`unshift()\` method add a new element at the \`beginning of an array\`
 - myarray\[indexNumber\]='value', myarray\[2\]='value', myarray.push('value'), myarray.unshift('value')
 
-#  Array
+# Array
 
 1.  An Array is special type of variable/object which \`consists of / stores multiple values\`
 1.  Arrays are complex variables that allow us to store more than one value or a group of values under a single variable name
@@ -2332,25 +2327,25 @@ With ES6, now you can specify default values to the function parameters. This me
 1.  Array is ordered collection, where we have a 0th, 1st, a 2nd, and so on elements
 1.  Each value (an \`element\`) in an array has a \`numeric position\`, known as its \`index\`, \`starts from 0\`, so that the first array element is arr\[0\] not arr\[1\]
 
-###  Different ways to create/define an Array:
+### Different ways to create/define an Array:
 
 1.  By array literal
 2.  By creating instance of Array directly (using new keyword)
 3.  By using an Array constructor (using new keyword)
 
-###  11.08. Removing an Array Elements
+### 11.08. Removing an Array Elements
 
 - \`pop()\` method \`remove the last element\` from an array
 - \`shift()\` method remove the \`first element\` from an array
 - myarray.pop(), myarray.shift()
 
-#  Objects
+# Objects
 
-###  12.01. Real Life Object, Properties and Method examples
+### 12.01. Real Life Object, Properties and Method examples
 
 In real life almost \`everything is an object\`. For example: Human, Car, Building, Bike, Pen, Chair, Monitor, Keyboard, Vehicle, Mobile, Computer etc.
 
-###  12.02. Objects
+### 12.02. Objects
 
 - JavaScript is an \`object-based language\` and in JavaScript almost everything is an object or acts like an object
 - Object is a \`special/complex\` data type that allows you to \`store collections of data\`
@@ -2361,24 +2356,24 @@ In real life almost \`everything is an object\`. For example: Human, Car, Buildi
 - A property \`key (name) is always a string\`, but the value which it stores can be any data types, like strings, numbers, booleans, or complex data types like arrays, function and other objects
 - JavaScript object properties can be accessed through two methods: \`1. object.firstName 2. object\['firstName'\]\`
 
-###  Different ways to create/define an Object:
+### Different ways to create/define an Object:
 
 1.  By object literal
 2.  By creating an instance of Object directly (using new keyword)
 3.  By using an Object constructor (using new keyword)
 
-###  12.03. By object literal
+### 12.03. By object literal
 
 - The simplest way to create an object in JavaScript is enclosing a \`comma-separated list of properties:values and methods in curly braces { }\`
 - var MyObject = { property1: value1, property2: value2.....propertyN: valueN }
 
-#  Objects
+# Objects
 
-###  12.01. Real Life Object, Properties and Method examples
+### 12.01. Real Life Object, Properties and Method examples
 
 In real life almost \`everything is an object\`. For example: Human, Car, Building, Bike, Pen, Chair, Monitor, Keyboard, Vehicle, Mobile, Computer etc.
 
-###  12.02. Objects
+### 12.02. Objects
 
 - JavaScript is an \`object-based language\` and in JavaScript almost everything is an object or acts like an object
 - Object is a \`special/complex\` data type that allows you to \`store collections of data\`
@@ -2389,24 +2384,24 @@ In real life almost \`everything is an object\`. For example: Human, Car, Buildi
 - A property \`key (name) is always a string\`, but the value which it stores can be any data types, like strings, numbers, booleans, or complex data types like arrays, function and other objects
 - JavaScript object properties can be accessed through two methods: \`1. object.firstName 2. object\['firstName'\]\`
 
-###  Different ways to create/define an Object:
+### Different ways to create/define an Object:
 
 1.  By object literal
 2.  By creating an instance of Object directly (using new keyword)
 3.  By using an Object constructor (using new keyword)
 
-###  12.04. By creating an instance of Object directly (using \`new\` keyword)
+### 12.04. By creating an instance of Object directly (using \`new\` keyword)
 
 - Array instance can be created using the \`new\` keyword \`new Array() with or without passing arguments/properties-methods\` in constructor
 - var MyObject = new Object(); OR var MyObject = Object();
 
-#  Objects
+# Objects
 
-###  12.01. Real Life Object, Properties and Method examples
+### 12.01. Real Life Object, Properties and Method examples
 
 In real life almost \`everything is an object\`. For example: Human, Car, Building, Bike, Pen, Chair, Monitor, Keyboard, Vehicle, Mobile, Computer etc.
 
-###  12.02. Objects
+### 12.02. Objects
 
 - JavaScript is an \`object-based language\` and in JavaScript almost everything is an object or acts like an object
 - Object is a \`special/complex\` data type that allows you to \`store collections of data\`
@@ -2417,24 +2412,24 @@ In real life almost \`everything is an object\`. For example: Human, Car, Buildi
 - A property \`key (name) is always a string\`, but the value which it stores can be any data types, like strings, numbers, booleans, or complex data types like arrays, function and other objects
 - JavaScript object properties can be accessed through two methods: \`1. object.firstName 2. object\['firstName'\]\`
 
-###  Different ways to create/define an Object:
+### Different ways to create/define an Object:
 
 1.  By object literal
 2.  By creating an instance of Object directly (using new keyword)
 3.  By using an Object constructor (using new keyword)
 
-###  12.05. By using an Object constructor (using \`new\` keyword)
+### 12.05. By using an Object constructor (using \`new\` keyword)
 
 - In this method, create function with arguments
 - Each argument value can be assigned in the current object by using \`this\` keyword, \`this\` keyword refers to the \`current object\`
 
-#  Objects
+# Objects
 
-###  12.01. Real Life Object, Properties and Method examples
+### 12.01. Real Life Object, Properties and Method examples
 
 In real life almost \`everything is an object\`. For example: Human, Car, Building, Bike, Pen, Chair, Monitor, Keyboard, Vehicle, Mobile, Computer etc.
 
-###  12.02. Objects
+### 12.02. Objects
 
 - JavaScript is an \`object-based language\` and in JavaScript almost everything is an object or acts like an object
 - Object is a \`special/complex\` data type that allows you to \`store collections of data\`
@@ -2445,25 +2440,25 @@ In real life almost \`everything is an object\`. For example: Human, Car, Buildi
 - A property \`key (name) is always a string\`, but the value which it stores can be any data types, like strings, numbers, booleans, or complex data types like arrays, function and other objects
 - JavaScript object properties can be accessed through two methods: \`1. object.firstName 2. object\['firstName'\]\`
 
-###  Different ways to create/define an Object:
+### Different ways to create/define an Object:
 
 1.  By object literal
 2.  By creating an instance of Object directly (using new keyword)
 3.  By using an Object constructor (using new keyword)
 
-###  12.06. Accessing/Looping through Object's Properties
+### 12.06. Accessing/Looping through Object's Properties
 
 - To access or get the value of a property, you can use the \`dot .\`, or \`square bracket \[\]\` notation
 - We can iterate through the \`key-value pairs\` of an object using the \`for...in loop\`
 - MyObject.propertyName; OR MyObject\[propertyName\]; OR MyObject\['propertyName'\]
 
-#  Objects
+# Objects
 
-###  12.01. Real Life Object, Properties and Method examples
+### 12.01. Real Life Object, Properties and Method examples
 
 In real life almost \`everything is an object\`. For example: Human, Car, Building, Bike, Pen, Chair, Monitor, Keyboard, Vehicle, Mobile, Computer etc.
 
-###  12.02. Objects
+### 12.02. Objects
 
 - JavaScript is an \`object-based language\` and in JavaScript almost everything is an object or acts like an object
 - Object is a \`special/complex\` data type that allows you to \`store collections of data\`
@@ -2474,20 +2469,20 @@ In real life almost \`everything is an object\`. For example: Human, Car, Buildi
 - A property \`key (name) is always a string\`, but the value which it stores can be any data types, like strings, numbers, booleans, or complex data types like arrays, function and other objects
 - JavaScript object properties can be accessed through two methods: \`1. object.firstName 2. object\['firstName'\]\`
 
-###  Different ways to create/define an Object:
+### Different ways to create/define an Object:
 
 1.  By object literal
 2.  By creating an instance of Object directly (using new keyword)
 3.  By using an Object constructor (using new keyword)
 
-###  12.07. Removing/Deleting Object's Properties
+### 12.07. Removing/Deleting Object's Properties
 
 - The \`delete\` operator can be used to completely remove properties from an object
 - delete MyObject.propertyName;
 
-#  Events
+# Events
 
-###  13.01. Understanding Events and Event Handlers
+### 13.01. Understanding Events and Event Handlers
 
 Events are happening/triggering all over, Event lets the developer know \`something has occurred/happened\`
 
@@ -2497,14 +2492,14 @@ When an event occur, use a JavaScript \`event handler (or an event listener) to 
 
 To react to an event you \`listen\` for it and supply a \`callback function or event handler\` which will be called by the browser when the event occurs
 
-###  13.02. Different Event category
+### 13.02. Different Event category
 
 - Mouse events
 - Keyboard events
 - Form events
 - Document/Window events
 
-###  13.02.01. Mouse events
+### 13.02.01. Mouse events
 
 A mouse event is triggered when the user click some element, move the mouse pointer over an element, etc. Find here some of the important mouse events and their event handler:
 
@@ -2519,9 +2514,9 @@ A mouse event is triggered when the user click some element, move the mouse poin
 5.  **mousemove** (\`onmousemove\` event handler)  
     <span onmousemove="console.log('You Moved mouse over Me!')" style="color:blue;cursor: pointer;">Occurs when the mouse pointer/cursor is moved</span>
 
-  # Events
+# Events
 
-###  13.01. Understanding Events and Event Handlers
+### 13.01. Understanding Events and Event Handlers
 
 Events are happening/triggering all over, Event lets the developer know \`something has occurred/happened\`
 
@@ -2531,14 +2526,14 @@ When an event occur, use a JavaScript \`event handler (or an event listener) to 
 
 To react to an event you \`listen\` for it and supply a \`callback function or event handler\` which will be called by the browser when the event occurs
 
-###  13.02. Different Event category
+### 13.02. Different Event category
 
 - Mouse events
 - Keyboard events
 - Form events
 - Document/Window events
 
-###  13.02.02. Keyboard events
+### 13.02.02. Keyboard events
 
 A keyboard event is fired up when the user press or release a key on the keyboard. Here're some of the important keyboard events and their event handler:
 
@@ -2550,9 +2545,9 @@ A keyboard event is fired up when the user press or release a key on the keyboar
 
 Enter Name:
 
-#  Events
+# Events
 
-###  13.01. Understanding Events and Event Handlers
+### 13.01. Understanding Events and Event Handlers
 
 Events are happening/triggering all over, Event lets the developer know \`something has occurred/happened\`
 
@@ -2562,14 +2557,14 @@ When an event occur, use a JavaScript \`event handler (or an event listener) to 
 
 To react to an event you \`listen\` for it and supply a \`callback function or event handler\` which will be called by the browser when the event occurs
 
-###  13.02. Different Event category
+### 13.02. Different Event category
 
 - Mouse events
 - Keyboard events
 - Form events
 - Document/Window events
 
-###  13.02.03. Form events
+### 13.02.03. Form events
 
 A form event is triggered when a form control/form fields (text fields/radio buttons/checkbox) receives or loses focus or when the user modify a form control value by typing text in a text input, select any option in a dropdown/select box etc. Lets look into some of most important form events and their event handler:
 
@@ -2586,9 +2581,9 @@ First Name:
 
 Select Male Female
 
-#  Events
+# Events
 
-###  13.01. Understanding Events and Event Handlers
+### 13.01. Understanding Events and Event Handlers
 
 Events are happening/triggering all over, Event lets the developer know \`something has occurred/happened\`
 
@@ -2598,14 +2593,14 @@ When an event occur, use a JavaScript \`event handler (or an event listener) to 
 
 To react to an event you \`listen\` for it and supply a \`callback function or event handler\` which will be called by the browser when the event occurs
 
-###  13.02. Different Event category
+### 13.02. Different Event category
 
 - Mouse events
 - Keyboard events
 - Form events
 - Document/Window events
 
-###  13.02.04. Document/Window events
+### 13.02.04. Document/Window events
 
 Events are happening/triggering all over. Events do triggered even when the page has loaded/unloaded or user resize the browser window. Mentioned here some of the most important document/window events and their event handler:
 
@@ -2619,9 +2614,9 @@ Events are happening/triggering all over. Events do triggered even when the page
     Occurs when user resizes the browser window, even when browser window minimized or maximized
 5.  Note: The unload event is not supported properly in most of the browsers.
 
-  # Events
+# Events
 
-###  13.01. Understanding Events and Event Handlers
+### 13.01. Understanding Events and Event Handlers
 
 Events are happening/triggering all over, Event lets the developer know \`something has occurred/happened\`
 
@@ -2631,20 +2626,20 @@ When an event occur, use a JavaScript \`event handler (or an event listener) to 
 
 To react to an event you \`listen\` for it and supply a \`callback function or event handler\` which will be called by the browser when the event occurs
 
-###  13.02. Different Event category
+### 13.02. Different Event category
 
 - Mouse events
 - Keyboard events
 - Form events
 - Document/Window events
 
-###  13.03. Different ways to write the event handler
+### 13.03. Different ways to write the event handler
 
 1.  HTML Attribute
 2.  DOM element properties (anonymous function)
 3.  Registering event listeners (Professional Method (add and remove listeners))
 
-###  13.03.01. HTML attribute | Click Me!
+### 13.03.01. HTML attribute | Click Me!
 
 - button onclick="alert('Hello world! Welcome to JavaScript Events!!')" Click here... /button
 - Note: his way should be avoided as it makes markup less readable and making it harder to find if there is any bug.
@@ -2653,9 +2648,9 @@ Click here...
 
 Invoke Function
 
-#  Events
+# Events
 
-###  13.01. Understanding Events and Event Handlers
+### 13.01. Understanding Events and Event Handlers
 
 Events are happening/triggering all over, Event lets the developer know \`something has occurred/happened\`
 
@@ -2665,20 +2660,20 @@ When an event occur, use a JavaScript \`event handler (or an event listener) to 
 
 To react to an event you \`listen\` for it and supply a \`callback function or event handler\` which will be called by the browser when the event occurs
 
-###  13.02. Different Event category
+### 13.02. Different Event category
 
 - Mouse events
 - Keyboard events
 - Form events
 - Document/Window events
 
-###  13.03. Different ways to write the event handler
+### 13.03. Different ways to write the event handler
 
 1.  HTML Attribute
 2.  DOM element properties (anonymous function)
 3.  Registering event listeners (Professional Method (add and remove listeners))
 
-###  13.03.02. DOM element properties
+### 13.03.02. DOM element properties
 
 - messageButton1.onclick = function () { console.log('Welcome to event handler!'); alert('Welcome to event handler!'); }
 - document.getElementById("messageButton2").onclick = fnShowMessage;  
@@ -2688,9 +2683,9 @@ Click here...
 
 Click here...
 
-#  DOM (Document Object Model)
+# DOM (Document Object Model)
 
-###  14.01. DOM (Document Object Model)
+### 14.01. DOM (Document Object Model)
 
 - DOM represents the whole html document, DOM is a structure of HTML web page where all tags are defined in a structured/structural way
 - The Document Object Model (DOM) is the model that describes how all elements in an HTML page (like input fields, images, paragraphs, headings etc.), are related to the topmost structure: the document itself
@@ -2698,7 +2693,7 @@ Click here...
 - DOM is a W3C (World Wide Web Consortium) standard which defines a standard for accessing documents like programmers can build documents, navigate their structure, and add, modify, or delete elements and content
 - In DOM world always think in form/terms of \`Nodes\` (elements, its attributes, text etc.)
 
-###  14.02. Node
+### 14.02. Node
 
 As we learnt above, in DOM, all parts of the document (like elements, its attributes, text etc.) are organized in a hierarchical tree-like structure; similar to a real life family tree which consists of parents and children. In DOM terminology these individual parts of the document are known as \`nodes\`.
 
@@ -2710,15 +2705,15 @@ There are different types of nodes like: \`Elements, Attribute & Text Node\`.
 
       * Elements NODES not contains text
 
-###  14.03. JavaScript DOM Selectors - 14.03.01. Selecting Elements by ID (\`getElementById()\`)
+### 14.03. JavaScript DOM Selectors - 14.03.01. Selecting Elements by ID (\`getElementById()\`)
 
 - One can select an element based on its \`unique ID\` with the \`getElementById()\` method
 - \`getElementById()\` is the easiest and most common way to find/access an HTML element in the DOM tree
 - \`getElementById()\` method returns the element having the given id value
 
-#  DOM (Document Object Model)
+# DOM (Document Object Model)
 
-###  14.01. DOM (Document Object Model)
+### 14.01. DOM (Document Object Model)
 
 - DOM represents the whole html document, DOM is a structure of HTML web page where all tags are defined in a structured/structural way
 - The Document Object Model (DOM) is the model that describes how all elements in an HTML page (like input fields, images, paragraphs, headings etc.), are related to the topmost structure: the document itself
@@ -2726,7 +2721,7 @@ There are different types of nodes like: \`Elements, Attribute & Text Node\`.
 - DOM is a W3C (World Wide Web Consortium) standard which defines a standard for accessing documents like programmers can build documents, navigate their structure, and add, modify, or delete elements and content
 - In DOM world always think in form/terms of \`Nodes\` (elements, its attributes, text etc.)
 
-###  14.02. Node
+### 14.02. Node
 
 As we learnt above, in DOM, all parts of the document (like elements, its attributes, text etc.) are organized in a hierarchical tree-like structure; similar to a real life family tree which consists of parents and children. In DOM terminology these individual parts of the document are known as \`nodes\`.
 
@@ -2738,14 +2733,14 @@ There are different types of nodes like: \`Elements, Attribute & Text Node\`.
 
       * Elements NODES not contains text
 
-###  14.03. JavaScript DOM Selectors - 14.03.02. Selecting Elements by Class Name (\`getElementsByClassName()\`)
+### 14.03. JavaScript DOM Selectors - 14.03.02. Selecting Elements by Class Name (\`getElementsByClassName()\`)
 
 - \`getElementsByClassName()\` method is used to select all the \`elements having specific class names\`
 - \`getElementsByClassName()\` method \`returns an array of all elements\` with given class names
 
-#  DOM (Document Object Model)
+# DOM (Document Object Model)
 
-###  14.01. DOM (Document Object Model)
+### 14.01. DOM (Document Object Model)
 
 - DOM represents the whole html document, DOM is a structure of HTML web page where all tags are defined in a structured/structural way
 - The Document Object Model (DOM) is the model that describes how all elements in an HTML page (like input fields, images, paragraphs, headings etc.), are related to the topmost structure: the document itself
@@ -2753,7 +2748,7 @@ There are different types of nodes like: \`Elements, Attribute & Text Node\`.
 - DOM is a W3C (World Wide Web Consortium) standard which defines a standard for accessing documents like programmers can build documents, navigate their structure, and add, modify, or delete elements and content
 - In DOM world always think in form/terms of \`Nodes\` (elements, its attributes, text etc.)
 
-###  14.02. Node
+### 14.02. Node
 
 As we learnt above, in DOM, all parts of the document (like elements, its attributes, text etc.) are organized in a hierarchical tree-like structure; similar to a real life family tree which consists of parents and children. In DOM terminology these individual parts of the document are known as \`nodes\`.
 
@@ -2765,14 +2760,14 @@ There are different types of nodes like: \`Elements, Attribute & Text Node\`.
 
       * Elements NODES not contains text
 
-###  14.03. JavaScript DOM Selectors - 14.03.03. Selecting Elements by Tag Name (\`getElementsByTagName()\`)
+### 14.03. JavaScript DOM Selectors - 14.03.03. Selecting Elements by Tag Name (\`getElementsByTagName()\`)
 
 - Developer can also \`select HTML elements by tag name\` using the \`getElementsByTagName()\` method
 - \`getElementsByTagName()\` method \`returns an array of all elements\` with given tag name
 
-#  DOM (Document Object Model)
+# DOM (Document Object Model)
 
-###  14.01. DOM (Document Object Model)
+### 14.01. DOM (Document Object Model)
 
 - DOM represents the whole html document, DOM is a structure of HTML web page where all tags are defined in a structured/structural way
 - The Document Object Model (DOM) is the model that describes how all elements in an HTML page (like input fields, images, paragraphs, headings etc.), are related to the topmost structure: the document itself
@@ -2780,7 +2775,7 @@ There are different types of nodes like: \`Elements, Attribute & Text Node\`.
 - DOM is a W3C (World Wide Web Consortium) standard which defines a standard for accessing documents like programmers can build documents, navigate their structure, and add, modify, or delete elements and content
 - In DOM world always think in form/terms of \`Nodes\` (elements, its attributes, text etc.)
 
-###  14.02. Node
+### 14.02. Node
 
 As we learnt above, in DOM, all parts of the document (like elements, its attributes, text etc.) are organized in a hierarchical tree-like structure; similar to a real life family tree which consists of parents and children. In DOM terminology these individual parts of the document are known as \`nodes\`.
 
@@ -2792,15 +2787,15 @@ There are different types of nodes like: \`Elements, Attribute & Text Node\`.
 
       * Elements NODES not contains text
 
-###  14.03. JavaScript DOM Selectors - 14.03.04. Selecting Elements with CSS Selectors (\`querySelectorAll()\`)
+### 14.03. JavaScript DOM Selectors - 14.03.04. Selecting Elements with CSS Selectors (\`querySelectorAll()\`)
 
 - \`querySelectorAll()\` method find all \`HTML elements that match a specified CSS selector\` (id, class names, types, attributes, values of attributes, etc)
 - CSS selectors provide a very \`powerful and efficient way\` of selecting HTML elements in a document
 - \`querySelectorAll()\` method \`returns an array\` or list of all the elements that matches the specified selectors
 
-#  DOM (Document Object Model)
+# DOM (Document Object Model)
 
-###  14.01. DOM (Document Object Model)
+### 14.01. DOM (Document Object Model)
 
 - DOM represents the whole html document, DOM is a structure of HTML web page where all tags are defined in a structured/structural way
 - The Document Object Model (DOM) is the model that describes how all elements in an HTML page (like input fields, images, paragraphs, headings etc.), are related to the topmost structure: the document itself
@@ -2808,7 +2803,7 @@ There are different types of nodes like: \`Elements, Attribute & Text Node\`.
 - DOM is a W3C (World Wide Web Consortium) standard which defines a standard for accessing documents like programmers can build documents, navigate their structure, and add, modify, or delete elements and content
 - In DOM world always think in form/terms of \`Nodes\` (elements, its attributes, text etc.)
 
-###  14.02. Node
+### 14.02. Node
 
 As we learnt above, in DOM, all parts of the document (like elements, its attributes, text etc.) are organized in a hierarchical tree-like structure; similar to a real life family tree which consists of parents and children. In DOM terminology these individual parts of the document are known as \`nodes\`.
 
@@ -2820,18 +2815,18 @@ There are different types of nodes like: \`Elements, Attribute & Text Node\`.
 
       * Elements NODES not contains text
 
-###  14.04. JavaScript DOM CSS Styling
+### 14.04. JavaScript DOM CSS Styling
 
 Using JavaScript we can also apply CSS style on HTML elements to change the visual look and feel specification/presentation of HTML documents dynamically/at run time . We can apply/set almost all the css styles for the elements like, fonts, colors, margins, padding, borders, alignments, background images, width and height, position, and so on.
 
-###  14.04.01. Applying/Setting Inline Styles on Elements
+### 14.04.01. Applying/Setting Inline Styles on Elements
 
 - In HTML inline styles are applied directly to the specific HTML element using the \`style attribute\`, eg. \`&lt;element style="color:red;"&gt;\`
 - In JavaScript the \`style property\` is used to get or set the inline style of an element, eg. \`elem.style.color = 'red';\`
 
-#  DOM (Document Object Model)
+# DOM (Document Object Model)
 
-###  14.01. DOM (Document Object Model)
+### 14.01. DOM (Document Object Model)
 
 - DOM represents the whole html document, DOM is a structure of HTML web page where all tags are defined in a structured/structural way
 - The Document Object Model (DOM) is the model that describes how all elements in an HTML page (like input fields, images, paragraphs, headings etc.), are related to the topmost structure: the document itself
@@ -2839,7 +2834,7 @@ Using JavaScript we can also apply CSS style on HTML elements to change the visu
 - DOM is a W3C (World Wide Web Consortium) standard which defines a standard for accessing documents like programmers can build documents, navigate their structure, and add, modify, or delete elements and content
 - In DOM world always think in form/terms of \`Nodes\` (elements, its attributes, text etc.)
 
-###  14.02. Node
+### 14.02. Node
 
 As we learnt above, in DOM, all parts of the document (like elements, its attributes, text etc.) are organized in a hierarchical tree-like structure; similar to a real life family tree which consists of parents and children. In DOM terminology these individual parts of the document are known as \`nodes\`.
 
@@ -2851,19 +2846,19 @@ There are different types of nodes like: \`Elements, Attribute & Text Node\`.
 
       * Elements NODES not contains text
 
-###  14.04. JavaScript DOM CSS Styling
+### 14.04. JavaScript DOM CSS Styling
 
 Using JavaScript we can also apply CSS style on HTML elements to change the visual look and feel specification/presentation of HTML documents dynamically/at run time . We can apply/set almost all the css styles for the elements like, fonts, colors, margins, padding, borders, alignments, background images, width and height, position, and so on.
 
-###  14.04.02. Retrieving/Getting CSS Styles details from Elements
+### 14.04.02. Retrieving/Getting CSS Styles details from Elements
 
 - We can get the styles applied on the HTML elements using the \`style property\`
 - \`style property\` only returns the style rules set in the element's style attribute not those applied through internal/embedded style sheets, or external style sheets
 - To get the values of all CSS properties that are actually render an element we can use the \`window.getComputedStyle()\` method
 
-#  DOM (Document Object Model)
+# DOM (Document Object Model)
 
-###  14.01. DOM (Document Object Model)
+### 14.01. DOM (Document Object Model)
 
 - DOM represents the whole html document, DOM is a structure of HTML web page where all tags are defined in a structured/structural way
 - The Document Object Model (DOM) is the model that describes how all elements in an HTML page (like input fields, images, paragraphs, headings etc.), are related to the topmost structure: the document itself
@@ -2871,7 +2866,7 @@ Using JavaScript we can also apply CSS style on HTML elements to change the visu
 - DOM is a W3C (World Wide Web Consortium) standard which defines a standard for accessing documents like programmers can build documents, navigate their structure, and add, modify, or delete elements and content
 - In DOM world always think in form/terms of \`Nodes\` (elements, its attributes, text etc.)
 
-###  14.02. Node
+### 14.02. Node
 
 As we learnt above, in DOM, all parts of the document (like elements, its attributes, text etc.) are organized in a hierarchical tree-like structure; similar to a real life family tree which consists of parents and children. In DOM terminology these individual parts of the document are known as \`nodes\`.
 
@@ -2883,18 +2878,18 @@ There are different types of nodes like: \`Elements, Attribute & Text Node\`.
 
       * Elements NODES not contains text
 
-###  14.04. JavaScript DOM CSS Styling
+### 14.04. JavaScript DOM CSS Styling
 
 Using JavaScript we can also apply CSS style on HTML elements to change the visual look and feel specification/presentation of HTML documents dynamically/at run time . We can apply/set almost all the css styles for the elements like, fonts, colors, margins, padding, borders, alignments, background images, width and height, position, and so on.
 
-###  14.04.03. Applying/Adding CSS Classes to Elements
+### 14.04.03. Applying/Adding CSS Classes to Elements
 
 - We can also get or set CSS classes to the HTML elements using the \`className property\`
 - As \`class\` is a reserved word in JavaScript, it uses the \`className\` property to refer the value of the HTML class attribute
 
-#  DOM (Document Object Model)
+# DOM (Document Object Model)
 
-###  14.01. DOM (Document Object Model)
+### 14.01. DOM (Document Object Model)
 
 - DOM represents the whole html document, DOM is a structure of HTML web page where all tags are defined in a structured/structural way
 - The Document Object Model (DOM) is the model that describes how all elements in an HTML page (like input fields, images, paragraphs, headings etc.), are related to the topmost structure: the document itself
@@ -2902,7 +2897,7 @@ Using JavaScript we can also apply CSS style on HTML elements to change the visu
 - DOM is a W3C (World Wide Web Consortium) standard which defines a standard for accessing documents like programmers can build documents, navigate their structure, and add, modify, or delete elements and content
 - In DOM world always think in form/terms of \`Nodes\` (elements, its attributes, text etc.)
 
-###  14.02. Node
+### 14.02. Node
 
 As we learnt above, in DOM, all parts of the document (like elements, its attributes, text etc.) are organized in a hierarchical tree-like structure; similar to a real life family tree which consists of parents and children. In DOM terminology these individual parts of the document are known as \`nodes\`.
 
@@ -2914,24 +2909,24 @@ There are different types of nodes like: \`Elements, Attribute & Text Node\`.
 
       * Elements NODES not contains text
 
-###  14.04. JavaScript DOM CSS Styling
+### 14.04. JavaScript DOM CSS Styling
 
 Using JavaScript we can also apply CSS style on HTML elements to change the visual look and feel specification/presentation of HTML documents dynamically/at run time . We can apply/set almost all the css styles for the elements like, fonts, colors, margins, padding, borders, alignments, background images, width and height, position, and so on.
 
-###  14.04.03. Applying/Adding CSS Classes to Elements
+### 14.04.03. Applying/Adding CSS Classes to Elements
 
 - We can also get or set CSS classes to the HTML elements using the \`className property\`
 - As \`class\` is a reserved word in JavaScript, it uses the \`className\` property to refer the value of the HTML class attribute
 - Using \`classList property\` is much easier and better to get, set or remove CSS classes from an element
 - \`classList property\` is supported in all major browsers except Internet Explorer prior to version 10
 
-#  DOM (Document Object Model)
+# DOM (Document Object Model)
 
 Click Me
 
 Visit <a href="http://www.google.com" id="linkText" class="link-text">http://www.google.com</a>
 
-###  14.01. DOM (Document Object Model)
+### 14.01. DOM (Document Object Model)
 
 - DOM represents the whole html document, DOM is a structure of HTML web page where all tags are defined in a structured/structural way
 - The Document Object Model (DOM) is the model that describes how all elements in an HTML page (like input fields, images, paragraphs, headings etc.), are related to the topmost structure: the document itself
@@ -2939,7 +2934,7 @@ Visit <a href="http://www.google.com" id="linkText" class="link-text">http://www
 - DOM is a W3C (World Wide Web Consortium) standard which defines a standard for accessing documents like programmers can build documents, navigate their structure, and add, modify, or delete elements and content
 - In DOM world always think in form/terms of \`Nodes\` (elements, its attributes, text etc.)
 
-###  14.02. Node
+### 14.02. Node
 
 As we learnt above, in DOM, all parts of the document (like elements, its attributes, text etc.) are organized in a hierarchical tree-like structure; similar to a real life family tree which consists of parents and children. In DOM terminology these individual parts of the document are known as \`nodes\`.
 
@@ -2951,24 +2946,24 @@ There are different types of nodes like: \`Elements, Attribute & Text Node\`.
 
       * Elements NODES not contains text
 
-###  14.05. JavaScript DOM HTML Get Set Attributes
+### 14.05. JavaScript DOM HTML Get Set Attributes
 
 - An attribute in HTML \`provides extra information\` about the element, and it is applied within the start tag
 - An HTML attribute contains two fields: \`name & value / key & value\`
 - JavaScript provides several methods for adding, reading or removing an HTML element's attribute like \`setAttribute(), getAttribute(), removeAttribute()\`
 
-###  14.05.01. Applying/Setting Attribute on Element
+### 14.05.01. Applying/Setting Attribute on Element
 
 - The \`setAttribute()\` method is used to set an attribute on the specified element
 - If the attribute already present/exists on the element, the attribute value will be updated; else a new attribute is added with the specified name and value
 
-#  DOM (Document Object Model)
+# DOM (Document Object Model)
 
 Click Me
 
 Visit <a href="http://www.google.com" id="linkText" class="link-text">http://www.google.com</a>
 
-###  14.01. DOM (Document Object Model)
+### 14.01. DOM (Document Object Model)
 
 - DOM represents the whole html document, DOM is a structure of HTML web page where all tags are defined in a structured/structural way
 - The Document Object Model (DOM) is the model that describes how all elements in an HTML page (like input fields, images, paragraphs, headings etc.), are related to the topmost structure: the document itself
@@ -2976,7 +2971,7 @@ Visit <a href="http://www.google.com" id="linkText" class="link-text">http://www
 - DOM is a W3C (World Wide Web Consortium) standard which defines a standard for accessing documents like programmers can build documents, navigate their structure, and add, modify, or delete elements and content
 - In DOM world always think in form/terms of \`Nodes\` (elements, its attributes, text etc.)
 
-###  14.02. Node
+### 14.02. Node
 
 As we learnt above, in DOM, all parts of the document (like elements, its attributes, text etc.) are organized in a hierarchical tree-like structure; similar to a real life family tree which consists of parents and children. In DOM terminology these individual parts of the document are known as \`nodes\`.
 
@@ -2988,24 +2983,24 @@ There are different types of nodes like: \`Elements, Attribute & Text Node\`.
 
       * Elements NODES not contains text
 
-###  14.05. JavaScript DOM HTML Get Set Attributes
+### 14.05. JavaScript DOM HTML Get Set Attributes
 
 - An attribute in HTML \`provides extra information\` about the element, and it is applied within the start tag
 - An HTML attribute contains two fields: \`name & value / key & value\`
 - JavaScript provides several methods for adding, reading or removing an HTML element's attribute like \`setAttribute(), getAttribute(), removeAttribute()\`
 
-###  14.05.02. Retrieving/Getting Attribute Value
+### 14.05.02. Retrieving/Getting Attribute Value
 
 - The \`getAttribute()\` method is used to get the current value of a attribute on the element
 - If the specified attribute does not present/exists on the element, it will return \`null\`
 
-#  DOM (Document Object Model)
+# DOM (Document Object Model)
 
 Click Me
 
 Visit <a href="http://www.google.com" id="linkText" class="link-text">http://www.google.com</a>
 
-###  14.01. DOM (Document Object Model)
+### 14.01. DOM (Document Object Model)
 
 - DOM represents the whole html document, DOM is a structure of HTML web page where all tags are defined in a structured/structural way
 - The Document Object Model (DOM) is the model that describes how all elements in an HTML page (like input fields, images, paragraphs, headings etc.), are related to the topmost structure: the document itself
@@ -3013,7 +3008,7 @@ Visit <a href="http://www.google.com" id="linkText" class="link-text">http://www
 - DOM is a W3C (World Wide Web Consortium) standard which defines a standard for accessing documents like programmers can build documents, navigate their structure, and add, modify, or delete elements and content
 - In DOM world always think in form/terms of \`Nodes\` (elements, its attributes, text etc.)
 
-###  14.02. Node
+### 14.02. Node
 
 As we learnt above, in DOM, all parts of the document (like elements, its attributes, text etc.) are organized in a hierarchical tree-like structure; similar to a real life family tree which consists of parents and children. In DOM terminology these individual parts of the document are known as \`nodes\`.
 
@@ -3025,12 +3020,12 @@ There are different types of nodes like: \`Elements, Attribute & Text Node\`.
 
       * Elements NODES not contains text
 
-###  14.05. JavaScript DOM HTML Get Set Attributes
+### 14.05. JavaScript DOM HTML Get Set Attributes
 
 - An attribute in HTML \`provides extra information\` about the element, and it is applied within the start tag
 - An HTML attribute contains two fields: \`name & value / key & value\`
 - JavaScript provides several methods for adding, reading or removing an HTML element's attribute like \`setAttribute(), getAttribute(), removeAttribute()\`
 
-###  14.05.03. Removing Attributes from Elements
+### 14.05.03. Removing Attributes from Elements
 
 - The \`removeAttribute()\` method is used to remove an attribute from the specified element
